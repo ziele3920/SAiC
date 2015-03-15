@@ -1,0 +1,41 @@
+
+**** 03/15/15 22:40:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja"  [ F:\AIR\SAiC\projekty\02\rozniczkujacy-SCHEMATIC1-symulacja.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "rozniczkujacy-SCHEMATIC1-symulacja.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 1000k
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\rozniczkujacy-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING rozniczkujacy-SCHEMATIC1.net ****
+* source ROZNICZKUJACY
+V_V1         IN 0  
++PULSE 0 5 100u 4,9m 4,9m 0 10m
+--------------------------$
+ERROR -- Expecting keyword STIMULUS, saw 0.
+
+R_R1         IN 0  2k  
+
+**** RESUMING rozniczkujacy-SCHEMATIC1-symulacja.sim.cir ****
+.END
+

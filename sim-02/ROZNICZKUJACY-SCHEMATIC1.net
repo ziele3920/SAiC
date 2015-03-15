@@ -1,0 +1,4 @@
+* source ROZNICZKUJACY
+V_V1         IN 0  
++PULSE -2.5 2.5 0 0.66667m 0.66667m 0.00001m 1.3335m
+R_R1         IN 0  2k  

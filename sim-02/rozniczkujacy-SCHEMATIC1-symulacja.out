@@ -1,0 +1,71 @@
+
+**** 03/15/15 22:51:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja"  [ F:\AIR\SAiC\projekty\02\rozniczkujacy-SCHEMATIC1-symulacja.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "rozniczkujacy-SCHEMATIC1-symulacja.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\rozniczkujacy-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING rozniczkujacy-SCHEMATIC1.net ****
+* source ROZNICZKUJACY
+V_V1         IN 0  
++PULSE -2.5 2.5 0 0.66667m 0.66667m 0.00001m 1.3335m
+R_R1         IN 0  2k  
+
+**** RESUMING rozniczkujacy-SCHEMATIC1-symulacja.sim.cir ****
+.END
+
+**** 03/15/15 22:51:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja"  [ F:\AIR\SAiC\projekty\02\rozniczkujacy-SCHEMATIC1-symulacja.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)   -2.5000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         1.250E-03
+
+    TOTAL POWER DISSIPATION   3.13E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+
