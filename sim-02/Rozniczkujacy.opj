@@ -27,41 +27,43 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
-    (0
-      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
-      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (LibraryName "D:\PSPICE\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (VPULSE
       (FullPartName "VPULSE.Normal")
       (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
-     "E:\Program Files\Orcad\Capture\Library\PSpice")
+     "C:\Program Files\Orcad\Capture\Library\PSpice")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "F:\AIR\SAiC\projekty\02\rozniczkujacy.dsn")
-      (Path "Design Resources" "F:\AIR\SAiC\projekty\02\rozniczkujacy.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\rozniczkujacy.dsn")
+      (Path "Design Resources" ".\rozniczkujacy.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" "F:\AIR\SAiC\projekty\02\rozniczkujacy.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\rozniczkujacy.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 176 376 106 709"))
+        (Placement "44 0 1 -1 -1 -8 -30 176 376 106 709"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1716 100 711")
-        (Scroll "2241 1325")
-        (Zoom "480")
+        (Placement "44 2 3 -1 -1 -8 -30 50 895 50 474")
+        (Scroll "279 368")
+        (Zoom "132")
         (Occurrence "/"))
-      (Path "F:\AIR\SAiC\projekty\02\Rozniczkujacy.dsn")
+      (Path "C:\USERS\JAKUB\DESKTOP\SAIC\SIM-02\ROZNICZKUJACY.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))

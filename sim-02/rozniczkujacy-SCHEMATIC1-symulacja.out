@@ -1,7 +1,7 @@
 
-**** 03/15/15 22:51:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja"  [ F:\AIR\SAiC\projekty\02\rozniczkujacy-SCHEMATIC1-symulacja.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,12 +12,12 @@
 
 
 
-** Creating circuit file "rozniczkujacy-SCHEMATIC1-symulacja.sim.cir" 
+** Creating circuit file "rozniczkujacy-schematic1-symulacja.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
 * Local Libraries :
-* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
 .lib "nom.lib" 
 
 *Analysis directives: 
@@ -30,15 +30,58 @@
 **** INCLUDING rozniczkujacy-SCHEMATIC1.net ****
 * source ROZNICZKUJACY
 V_V1         IN 0  
-+PULSE -2.5 2.5 0 0.66667m 0.66667m 0.00001m 1.3335m
-R_R1         IN 0  2k  
++PULSE -2 2 0 0.66667m 0.66667m 0.00001m 1.3335m
+X_U6         N09876 N01239 N06620 N06622 OUT TL061/301/TI
+R_R1         IN N12517  1k  
+V_V2         N06620 0 15Vdc
+C_C         N12517 N01239  6.8n  
+V_V3         0 N06622 15Vdc
+R_R         N01239 OUT  9.1k  
+R_R3         0 N09876  1k  
 
-**** RESUMING rozniczkujacy-SCHEMATIC1-symulacja.sim.cir ****
+**** RESUMING rozniczkujacy-schematic1-symulacja.sim.cir ****
 .END
 
-**** 03/15/15 22:51:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja"  [ F:\AIR\SAiC\projekty\02\rozniczkujacy-SCHEMATIC1-symulacja.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U6.DX         
+          IS  800.000000E-18 
+
+
+**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U6.JX         
+               PJF             
+         VTO   -1            
+        BETA  100.500000E-06 
+          IS   15.000000E-12 
+
+
+**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -51,7 +94,19 @@ R_R1         IN 0  2k
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(   IN)   -2.5000  
+(   IN)   -2.0000  (  OUT) 7.993E-06  (N01239) 7.582E-06 (N06620)   15.0000     
+
+(N06622)  -15.0000 (N09876)-45.21E-09 (N12517)   -2.0000 (X_U6.6)-12.59E-09     
+
+(X_U6.7) 8.002E-06 (X_U6.8) 8.002E-06 (X_U6.9)    0.0000 (X_U6.10)    -.4883    
+
+(X_U6.11)  -14.7210                   (X_U6.12)  -14.7210                       
+
+(X_U6.53)   12.8000                   (X_U6.54)  -12.8000                       
+
+(X_U6.90) 45.21E-09                   (X_U6.91)   15.0000                       
+
+(X_U6.92)  -15.0000                   (X_U6.99)    0.0000                   
 
 
 
@@ -59,13 +114,21 @@ R_R1         IN 0  2k
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1         1.250E-03
+    V_V1         0.000E+00
+    V_V2        -2.525E-04
+    V_V3        -2.526E-04
+    X_U6.VB     -1.259E-13
+    X_U6.VC      1.280E-11
+    X_U6.VE      1.280E-11
+    X_U6.VLIM    4.521E-11
+    X_U6.VLP    -1.500E-11
+    X_U6.VLN    -1.500E-11
 
-    TOTAL POWER DISSIPATION   3.13E-03  WATTS
+    TOTAL POWER DISSIPATION   7.58E-03  WATTS
 
 
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .02
+          TOTAL JOB TIME             .06
 
