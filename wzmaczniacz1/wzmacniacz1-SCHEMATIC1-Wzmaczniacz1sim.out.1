@@ -1,0 +1,48 @@
+
+**** 03/10/15 09:12:48 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-Wzmaczniacz1sim"  [ c:\users\robert koban\documents\wzmacniacz1-schematic1-wzmaczniacz1sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "wzmacniacz1-schematic1-wzmaczniacz1sim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of d:\pspice\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 5000K
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\wzmacniacz1-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING wzmacniacz1-SCHEMATIC1.net ****
+* source WZMACNIACZ1
+R_R1         IN N00291  1  
+X_U6         0 N00291 N00874 N01096 OUT TL061/301/TI
+R_R2         N00291 OUT  70  
+R_R1'         0 0  1  
+$
+ERROR -- Name "R_R1" is defined more than once
+V_V2         N00874 0 15Vdc
+V_V3         0 N01096 15Vdc
+R_R2'         0 0  70  
+$
+ERROR -- Name "R_R2" is defined more than once
+C_C1         N00291 OUT  1.8u  
+V_V8         IN 0 DC 0Vdc AC 1Vac 
+
+**** RESUMING wzmacniacz1-schematic1-wzmaczniacz1sim.sim.cir ****
+.END
+

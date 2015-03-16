@@ -1,0 +1,131 @@
+
+**** 03/16/15 20:48:37 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-wzmacniacz2sim"  [ c:\users\jakub\desktop\saic\wzmacniacz2\wzmacniacz2-schematic1-wzmacniacz2sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "wzmacniacz2-schematic1-wzmacniacz2sim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 10Meg
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\wzmacniacz2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING wzmacniacz2-SCHEMATIC1.net ****
+* source WZMACNIACZ2
+R_R1         0 N01253  1k  
+X_U6         IN N01253 N00874 N01096 OUT TL061/301/TI
+R_R2         N01253 OUT  6.2k  
+V_V2         N00874 0 15Vdc
+V_V3         0 N01096 15Vdc
+V_V4         IN 0 DC 0Vdc AC 1Vac 
+
+**** RESUMING wzmacniacz2-schematic1-wzmacniacz2sim.sim.cir ****
+.END
+
+**** 03/16/15 20:48:37 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-wzmacniacz2sim"  [ c:\users\jakub\desktop\saic\wzmacniacz2\wzmacniacz2-schematic1-wzmacniacz2sim.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U6.DX         
+          IS  800.000000E-18 
+
+
+**** 03/16/15 20:48:37 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-wzmacniacz2sim"  [ c:\users\jakub\desktop\saic\wzmacniacz2\wzmacniacz2-schematic1-wzmacniacz2sim.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U6.JX         
+               PJF             
+         VTO   -1            
+        BETA  100.500000E-06 
+          IS   15.000000E-12 
+
+
+**** 03/16/15 20:48:37 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-wzmacniacz2sim"  [ c:\users\jakub\desktop\saic\wzmacniacz2\wzmacniacz2-schematic1-wzmacniacz2sim.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (  OUT) 55.14E-06  (N00874)   15.0000 (N01096)  -15.0000     
+
+(N01253) 7.620E-06 (X_U6.6)-91.45E-09 (X_U6.7) 56.67E-06 (X_U6.8) 56.67E-06     
+
+(X_U6.9)    0.0000 (X_U6.10)    -.4883                   (X_U6.11)  -14.7210    
+
+(X_U6.12)  -14.7210                   (X_U6.53)   12.8000                       
+
+(X_U6.54)  -12.8000                   (X_U6.90) 7.665E-06                       
+
+(X_U6.91)   15.0000                   (X_U6.92)  -15.0000                       
+
+(X_U6.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -2.525E-04
+    V_V3        -2.526E-04
+    V_V4        -4.521E-11
+    X_U6.VB     -9.145E-13
+    X_U6.VC      1.280E-11
+    X_U6.VE      1.280E-11
+    X_U6.VLIM    7.665E-09
+    X_U6.VLP    -1.500E-11
+    X_U6.VLN    -1.500E-11
+
+    TOTAL POWER DISSIPATION   7.58E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .05
+

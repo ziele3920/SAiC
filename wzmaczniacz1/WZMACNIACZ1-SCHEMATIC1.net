@@ -1,0 +1,8 @@
+* source WZMACNIACZ1
+R_R1         IN N00291  1K  
+X_U6         N09876 N00291 N00874 N01096 OUT TL061/301/TI
+R_R2         N00291 OUT  68k  
+V_V2         N00874 0 15Vdc
+V_V3         0 N01096 15Vdc
+R_R3         0 N09876  1k  
+V_V8         IN 0 DC 0Vdc AC 1Vac 

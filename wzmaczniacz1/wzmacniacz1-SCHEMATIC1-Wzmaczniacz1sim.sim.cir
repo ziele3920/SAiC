@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-Wzmaczniacz1sim"  [ c:\users\jakub\documents\wzmaczniacz1\wzmacniacz1-schematic1-wzmaczniacz1sim.sim ] 
+
+** Creating circuit file "wzmacniacz1-schematic1-wzmaczniacz1sim.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 5000K
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\wzmacniacz1-SCHEMATIC1.net" 
+
+
+.END
