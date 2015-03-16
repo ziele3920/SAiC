@@ -3,10 +3,10 @@
 @Settings: 0 1
 @General:
 ProfileName= "symulacja" 
-ProfileFile= "rozniczkujacy-SCHEMATIC1-symulacja.sim" 
+ProfileFile= "rozniczkujacy-schematic1-symulacja.sim" 
 DesignFile= "rozniczkujacy.dsn" 0 
 ProjectFile= "Rozniczkujacy.opj" 
-NetlistFile= "rozniczkujacy-SCHEMATIC1-symulacja.sim.cir" 
+NetlistFile= "rozniczkujacy-schematic1-symulacja.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "rozniczkujacy-SCHEMATIC1-symulacja.dat" 
 OutFile= "rozniczkujacy-SCHEMATIC1-symulacja.out" 
@@ -16,7 +16,7 @@ Notes=
 @End General
 @Analysis: 0 1
 +0 0 0 
-+0 "10ms" 
++0 "3ms" 
 +1 "" 
 +2 "0" 
 +3 "" 

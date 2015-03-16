@@ -1,7 +1,7 @@
 
-**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/16/15 21:06:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja"  [ f:\air\saic\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -17,11 +17,11 @@
 
 *Libraries: 
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 10ms 0 
+.TRAN  0 3ms 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\rozniczkujacy-SCHEMATIC1.net" 
 
@@ -30,7 +30,7 @@
 **** INCLUDING rozniczkujacy-SCHEMATIC1.net ****
 * source ROZNICZKUJACY
 V_V1         IN 0  
-+PULSE -2 2 0 0.66667m 0.66667m 0.00001m 1.3335m
++PULSE -2 2 0 0.1667m 0.1667m 0.0000001p 0.3334m+0.0000001p
 X_U6         N09876 N01239 N06620 N06622 OUT TL061/301/TI
 R_R1         IN N12517  1k  
 V_V2         N06620 0 15Vdc
@@ -42,9 +42,9 @@ R_R3         0 N09876  1k
 **** RESUMING rozniczkujacy-schematic1-symulacja.sim.cir ****
 .END
 
-**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/16/15 21:06:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja"  [ f:\air\saic\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -59,9 +59,9 @@ R_R3         0 N09876  1k
           IS  800.000000E-18 
 
 
-**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/16/15 21:06:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja"  [ f:\air\saic\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -79,9 +79,9 @@ R_R3         0 N09876  1k
           IS   15.000000E-12 
 
 
-**** 03/16/15 16:50:34 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/16/15 21:06:52 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja"  [ f:\air\saic\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -130,5 +130,5 @@ R_R3         0 N09876  1k
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .06
+          TOTAL JOB TIME             .03
 
