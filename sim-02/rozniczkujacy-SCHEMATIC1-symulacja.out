@@ -1,5 +1,5 @@
-
-**** 03/16/15 21:22:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -32,7 +32,7 @@
 V_V1         IN 0  
 +PULSE -2 2 0 0.1667m 0.1667m 0.0000001p 0.3334m+0.0000001p
 X_U6         N09876 N01239 N06620 N06622 OUT TL061/301/TI
-R_R1         IN N12517  1k  
+R_R1         IN N12517  820  
 V_V2         N06620 0 15Vdc
 C_C         N12517 N01239  6.8n  
 V_V3         0 N06622 15Vdc
@@ -42,7 +42,7 @@ R_R3         0 N09876  1k
 **** RESUMING rozniczkujacy-schematic1-symulacja.sim.cir ****
 .END
 
-**** 03/16/15 21:22:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -59,7 +59,7 @@ R_R3         0 N09876  1k
           IS  800.000000E-18 
 
 
-**** 03/16/15 21:22:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -79,7 +79,7 @@ R_R3         0 N09876  1k
           IS   15.000000E-12 
 
 
-**** 03/16/15 21:22:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
