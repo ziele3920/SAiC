@@ -1,6 +1,4 @@
 * source ROZNICZKUJACY
-V_V1         IN 0  
-+PULSE -2 2 0 0.1667m 0.1667m 0.0000001p 0.3334m+0.0000001p
 X_U6         N09876 N01239 N06620 N06622 OUT TL061/301/TI
 R_R1         IN N12517  820  
 V_V2         N06620 0 15Vdc
@@ -8,3 +6,4 @@ C_C         N12517 N01239  6.8n
 V_V3         0 N06622 15Vdc
 R_R         N01239 OUT  9.1k  
 R_R3         0 N09876  1k  
+V_V1         IN 0 DC 0Vdc AC 5Vac 

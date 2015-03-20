@@ -1,5 +1,5 @@
 
-**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -29,8 +29,6 @@
 
 **** INCLUDING rozniczkujacy-SCHEMATIC1.net ****
 * source ROZNICZKUJACY
-V_V1         IN 0  
-+PULSE -2 2 0 0.1667m 0.1667m 0.0000001p 0.3334m+0.0000001p
 X_U6         N09876 N01239 N06620 N06622 OUT TL061/301/TI
 R_R1         IN N12517  820  
 V_V2         N06620 0 15Vdc
@@ -38,11 +36,12 @@ C_C         N12517 N01239  6.8n
 V_V3         0 N06622 15Vdc
 R_R         N01239 OUT  9.1k  
 R_R3         0 N09876  1k  
+V_V1         IN 0 DC 0Vdc AC 5Vac 
 
 **** RESUMING rozniczkujacy-schematic1-symulacja.sim.cir ****
 .END
 
-**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -59,7 +58,7 @@ R_R3         0 N09876  1k
           IS  800.000000E-18 
 
 
-**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -79,7 +78,7 @@ R_R3         0 N09876  1k
           IS   15.000000E-12 
 
 
-**** 03/17/15 12:39:42 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -94,9 +93,9 @@ R_R3         0 N09876  1k
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(   IN)   -2.0000  (  OUT) 7.993E-06  (N01239) 7.582E-06 (N06620)   15.0000     
+(   IN)    0.0000  (  OUT) 7.993E-06  (N01239) 7.582E-06 (N06620)   15.0000     
 
-(N06622)  -15.0000 (N09876)-45.21E-09 (N12517)   -2.0000 (X_U6.6)-12.59E-09     
+(N06622)  -15.0000 (N09876)-45.21E-09 (N12517)    0.0000 (X_U6.6)-12.59E-09     
 
 (X_U6.7) 8.002E-06 (X_U6.8) 8.002E-06 (X_U6.9)    0.0000 (X_U6.10)    -.4883    
 
@@ -114,9 +113,9 @@ R_R3         0 N09876  1k
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1         0.000E+00
     V_V2        -2.525E-04
     V_V3        -2.526E-04
+    V_V1         0.000E+00
     X_U6.VB     -1.259E-13
     X_U6.VC      1.280E-11
     X_U6.VE      1.280E-11
@@ -130,5 +129,5 @@ R_R3         0 N09876  1k
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .03
+          TOTAL JOB TIME             .02
 
