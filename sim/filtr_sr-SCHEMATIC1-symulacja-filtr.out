@@ -1,0 +1,135 @@
+
+**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "filtr_sr-SCHEMATIC1-symulacja-filtr.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 10 100000
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\filtr_sr-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING filtr_sr-SCHEMATIC1.net ****
+* source FILTR_SR
+X_U1         N00994 N00288 N00862 N00795 OUT TL061/301/TI
+V_V3         N00862 0 15Vdc
+R_R1         IN N00261  10k  
+R_R6         0 N00261  1.6k  
+R_R5         0 N00994  1k  
+R_R3         OUT N00288  120k  
+V_V1         IN 0 DC 0Vdc AC 1Vac 
+C_C2         N00261 N00288  3.3n  
+C_C4         N00261 OUT  3.3n  
+V_V2         0 N00795 15Vdc
+
+**** RESUMING filtr_sr-SCHEMATIC1-symulacja-filtr.sim.cir ****
+.END
+
+**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DX         
+          IS  800.000000E-18 
+
+
+**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JX         
+               PJF             
+         VTO   -1            
+        BETA  100.500000E-06 
+          IS   15.000000E-12 
+
+
+**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (  OUT) 13.01E-06  (N00261)    0.0000 (N00288) 7.582E-06     
+
+(N00795)  -15.0000 (N00862)   15.0000 (N00994)-45.21E-09 (X_U1.6)-20.46E-09     
+
+(X_U1.7) 13.02E-06 (X_U1.8) 13.02E-06 (X_U1.9)    0.0000 (X_U1.10)    -.4883    
+
+(X_U1.11)  -14.7210                   (X_U1.12)  -14.7210                       
+
+(X_U1.53)   12.8000                   (X_U1.54)  -12.8000                       
+
+(X_U1.90) 45.21E-09                   (X_U1.91)   15.0000                       
+
+(X_U1.92)  -15.0000                   (X_U1.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -2.525E-04
+    V_V1         0.000E+00
+    V_V2        -2.526E-04
+    X_U1.VB     -2.046E-13
+    X_U1.VC      1.280E-11
+    X_U1.VE      1.280E-11
+    X_U1.VLIM    4.521E-11
+    X_U1.VLP    -1.500E-11
+    X_U1.VLN    -1.500E-11
+
+    TOTAL POWER DISSIPATION   7.58E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .25
+
