@@ -1,7 +1,7 @@
-
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "filtr_sr-SCHEMATIC1-symulacja-filtr.sim.cir" 
+** Creating circuit file "filtr_sr-schematic1-symulacja-filtr.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -40,12 +40,12 @@ C_C2         N00261 N00288  3.3n
 C_C4         N00261 OUT  3.3n  
 V_V2         0 N00795 15Vdc
 
-**** RESUMING filtr_sr-SCHEMATIC1-symulacja-filtr.sim.cir ****
+**** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -60,9 +60,9 @@ V_V2         0 N00795 15Vdc
           IS  800.000000E-18 
 
 
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -80,9 +80,9 @@ V_V2         0 N00795 15Vdc
           IS   15.000000E-12 
 
 
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
