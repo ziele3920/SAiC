@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 3ms 0 
+.AC DEC 100 10 1000k
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\rozniczkujacy-SCHEMATIC1.net" 
 

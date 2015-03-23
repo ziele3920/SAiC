@@ -1,5 +1,5 @@
 
-**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/23/15 14:55:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 3ms 0 
+.AC DEC 100 10 1000k
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\rozniczkujacy-SCHEMATIC1.net" 
 
@@ -41,7 +41,7 @@ V_V1         IN 0 DC 0Vdc AC 5Vac
 **** RESUMING rozniczkujacy-schematic1-symulacja.sim.cir ****
 .END
 
-**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/23/15 14:55:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -58,7 +58,7 @@ V_V1         IN 0 DC 0Vdc AC 5Vac
           IS  800.000000E-18 
 
 
-**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/23/15 14:55:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
@@ -78,12 +78,12 @@ V_V1         IN 0 DC 0Vdc AC 5Vac
           IS   15.000000E-12 
 
 
-**** 03/20/15 21:56:19 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/23/15 14:55:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja"  [ c:\users\jakub\desktop\saic\sim-02\rozniczkujacy-schematic1-symulacja.sim ] 
 
 
- ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
 
 
 ******************************************************************************
@@ -129,5 +129,5 @@ V_V1         IN 0 DC 0Vdc AC 5Vac
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .02
+          TOTAL JOB TIME             .05
 
