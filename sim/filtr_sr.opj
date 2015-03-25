@@ -27,15 +27,19 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
     (0
       (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (VDC
       (FullPartName "VDC.Normal")
-      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
-    (VAC
-      (FullPartName "VAC.Normal")
       (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (C
@@ -53,7 +57,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources" ".\filtr_sr.dsn")
+      (Path "Design Resources" ".\filtr_sr.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\filtr_sr.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -63,10 +70,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1670 50 665")
-        (Scroll "431 442")
-        (Zoom "240")
+        (Placement "44 2 3 -1 -1 -8 -30 50 895 50 474")
+        (Scroll "26 149")
+        (Zoom "106")
         (Occurrence "/"))
-      (Path "F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr.dsn")
+      (Path "C:\USERS\JAKUB\DESKTOP\SAIC\SIM\FILTR_SR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))

@@ -1,7 +1,7 @@
 
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,12 +12,12 @@
 
 
 
-** Creating circuit file "filtr_sr-SCHEMATIC1-symulacja-filtr.sim.cir" 
+** Creating circuit file "filtr_sr-schematic1-symulacja-filtr.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
 * Local Libraries :
-* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
 .lib "nom.lib" 
 
 *Analysis directives: 
@@ -32,20 +32,20 @@
 X_U1         N00994 N00288 N00862 N00795 OUT TL061/301/TI
 V_V3         N00862 0 15Vdc
 R_R1         IN N00261  10k  
-R_R6         0 N00261  1.6k  
+R_R6         0 N00261  1.57k  
 R_R5         0 N00994  1k  
-R_R3         OUT N00288  120k  
 V_V1         IN 0 DC 0Vdc AC 1Vac 
-C_C2         N00261 N00288  3.3n  
-C_C4         N00261 OUT  3.3n  
+R_R3         OUT N00288  120k  
+C_C2         N00261 N00288  3.10n  
+C_C4         N00261 OUT  3.10n  
 V_V2         0 N00795 15Vdc
 
-**** RESUMING filtr_sr-SCHEMATIC1-symulacja-filtr.sim.cir ****
+**** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -60,9 +60,9 @@ V_V2         0 N00795 15Vdc
           IS  800.000000E-18 
 
 
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     Junction FET MODEL PARAMETERS
@@ -80,9 +80,9 @@ V_V2         0 N00795 15Vdc
           IS   15.000000E-12 
 
 
-**** 03/20/15 15:43:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ F:\AiR\SAiC\sprawka\SAiC\sim\filtr_sr-SCHEMATIC1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -131,5 +131,5 @@ V_V2         0 N00795 15Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .25
+          TOTAL JOB TIME             .23
 
