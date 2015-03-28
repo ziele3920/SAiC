@@ -1,11 +1,11 @@
 * source FILTR_SR
-X_U1         N00994 N00288 N00862 N00795 OUT TL061/301/TI
-V_V3         N00862 0 15Vdc
-R_R1         IN N00261  10k  
-R_R6         0 N00261  1.57k  
-R_R5         0 N00994  1k  
-V_V1         IN 0 DC 0Vdc AC 1Vac 
-R_R3         OUT N00288  120k  
-C_C2         N00261 N00288  3.10n  
-C_C4         N00261 OUT  3.10n  
-V_V2         0 N00795 15Vdc
+C_C1         0 N01199  1n  
+C_C2         0 N01199  1n  
+R_R6         0 N00865  3k  
+V_V1         N01199 0 20Vdc
+C_C3         0 OUT  1n  
+R_R5         N00865 OUT  10k  
+R_R66         0 N00865  2k  
+C_1n         0 OUT  400n  
+R_R4         N00325 OUT  2k  
+X_U4         N01199 N00325 N00865 LM7805C

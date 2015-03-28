@@ -1,6 +1,6 @@
 @OrCAD Simulation Server Version: 1.0
 
-@Settings: 2 1
+@Settings: 0 1
 @General:
 ProfileName= "symulacja-filtr" 
 ProfileFile= "filtr_sr-schematic1-symulacja-filtr.sim" 
@@ -14,7 +14,7 @@ Notes=
 @#$BEGINNOTES
 @#$ENDNOTES
 @End General
-@Analysis: 0 0
+@Analysis: 0 1
 +0 0 0 
 +0 "1000ns" 
 +1 "" 
@@ -24,7 +24,7 @@ Notes=
 +5 "" 
 +6 "" 
 @End Analysis
-@Analysis: 1 1
+@Analysis: 1 0
 +2 0 0
 +0 "1000" 
 +1 "10" 
@@ -51,7 +51,7 @@ Notes=
 +2 "" 
 @End Analysis
 @Analysis: 4 0
-+0 0 1 0 0 0 2 0 
++0 0 1 0 0 0 0 0 
 +0 "" 
 +1 "" 
 +2 "" 

@@ -1,5 +1,5 @@
 
-**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 1000 10 100000
+.TRAN  0 1000ns 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\filtr_sr-SCHEMATIC1.net" 
 
@@ -29,21 +29,21 @@
 
 **** INCLUDING filtr_sr-SCHEMATIC1.net ****
 * source FILTR_SR
-X_U1         N00994 N00288 N00862 N00795 OUT TL061/301/TI
-V_V3         N00862 0 15Vdc
-R_R1         IN N00261  10k  
-R_R6         0 N00261  1.57k  
-R_R5         0 N00994  1k  
-V_V1         IN 0 DC 0Vdc AC 1Vac 
-R_R3         OUT N00288  120k  
-C_C2         N00261 N00288  3.10n  
-C_C4         N00261 OUT  3.10n  
-V_V2         0 N00795 15Vdc
+C_C1         0 N01199  1n  
+C_C2         0 N01199  1n  
+R_R6         0 N00865  3k  
+V_V1         N01199 0 20Vdc
+C_C3         0 OUT  1n  
+R_R5         N00865 OUT  10k  
+R_R66         0 N00865  2k  
+C_1n         0 OUT  400n  
+R_R4         N00325 OUT  2k  
+X_U4         N01199 N00325 N00865 LM7805C
 
 **** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -56,16 +56,20 @@ V_V2         0 N00795 15Vdc
 
 
 
-               X_U1.DX         
-          IS  800.000000E-18 
+               X_U4.x1.Dlim    X_U4.x1.Dz      
+          IS   10.000000E-15   50.000000E-15 
+          BV                    7.11         
+         IBV                   50.000000E-09 
+          RS                    3            
+          VJ     .7                          
 
 
-**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
- ****     Junction FET MODEL PARAMETERS
+ ****     BJT MODEL PARAMETERS
 
 
 ******************************************************************************
@@ -73,19 +77,43 @@ V_V2         0 N00795 15Vdc
 
 
 
-               X_U1.JX         
-               PJF             
-         VTO   -1            
-        BETA  100.500000E-06 
-          IS   15.000000E-12 
+               X_U4.x1.Npn1    
+               NPN             
+          IS   10.000000E-15 
+          BF   50            
+          NF    1            
+          BR    1            
+          NR    1            
+          CN    2.42         
+           D     .87         
 
 
-**** 03/24/15 13:49:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
- ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U4.x1.Sbg1    
+         RON    1            
+        ROFF    1.000000E+06 
+         VON    3.7          
+        VOFF    3            
+
+
+**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
 
 
 ******************************************************************************
@@ -95,19 +123,23 @@ V_V2         0 N00795 15Vdc
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(   IN)    0.0000  (  OUT) 13.01E-06  (N00261)    0.0000 (N00288) 7.582E-06     
+(  OUT)   10.7450  (N00325)   11.5780 (N00865)    6.5809 (N01199)   20.0000     
 
-(N00795)  -15.0000 (N00862)   15.0000 (N00994)-45.21E-09 (X_U1.6)-20.46E-09     
+(X_U4.x1.4)   12.8550                 (X_U4.x1.5)   12.8470                     
 
-(X_U1.7) 13.02E-06 (X_U1.8) 13.02E-06 (X_U1.9)    0.0000 (X_U1.10)    -.4883    
+(X_U4.x1.6)   12.2160                 (X_U4.x1.7)   11.5800                     
 
-(X_U1.11)  -14.7210                   (X_U1.12)  -14.7210                       
+(X_U4.x1.8)   11.5780                 (X_U4.x1.9)   11.5780                     
 
-(X_U1.53)   12.8000                   (X_U1.54)  -12.8000                       
+(X_U4.x1.55)   11.6110                (X_U4.x1.56)   12.6910                    
 
-(X_U1.90) 45.21E-09                   (X_U1.91)   15.0000                       
+(X_U4.x1.100)    7.4000               (X_U4.x1.101)    3.7007                   
 
-(X_U1.92)  -15.0000                   (X_U1.99)    0.0000                   
+(X_U4.x1.102)   13.4190               (X_U4.x1.105)    6.2746                   
+
+(X_U4.x1.106)    6.2746               (X_U4.x1.107)    1.0000                   
+
+(X_U4.x1.108)   12.4190               (X_U4.x1.200) 1665.0000               
 
 
 
@@ -115,21 +147,17 @@ V_V2         0 N00795 15Vdc
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V3        -2.525E-04
-    V_V1         0.000E+00
-    V_V2        -2.526E-04
-    X_U1.VB     -2.046E-13
-    X_U1.VC      1.280E-11
-    X_U1.VE      1.280E-11
-    X_U1.VLIM    4.521E-11
-    X_U1.VLP    -1.500E-11
-    X_U1.VLN    -1.500E-11
+    V_V1        -5.484E-03
+    X_U4.x1.Vbg  -3.699E+00
+    X_U4.x1.Vgainf  -1.665E+03
+    X_U4.x1.Vl1   6.155E-12
+    X_U4.x1.Vl2   5.285E-12
 
-    TOTAL POWER DISSIPATION   7.58E-03  WATTS
+    TOTAL POWER DISSIPATION   2.77E+06  WATTS
 
 
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .23
+          TOTAL JOB TIME             .02
 

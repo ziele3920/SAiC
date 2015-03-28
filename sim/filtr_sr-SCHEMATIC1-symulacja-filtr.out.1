@@ -1,0 +1,47 @@
+
+**** 03/28/15 23:31:04 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "filtr_sr-schematic1-symulacja-filtr.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\filtr_sr-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING filtr_sr-SCHEMATIC1.net ****
+* source FILTR_SR
+C_C1         0 N01199  1n  
+C_C2         0 N01199  1n  
+R_R6         0 N00865  3k  
+V_V1         N01199 0 20Vdc
+C_C3         0 N00546  1n  
+R_R5         N00865 N00546  10k  
+R_R66         0 N00865  2k  
+R_R2         N00546 N06664  1k  
+C_1n         0 N00546  400n  
+R_R4         N00325 N00546  2k  
+X_U4         N01199 N00325 N00865 LM7805C
+
+**** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
+.END
+
+ERROR -- Less than 2 connections at node N06664

@@ -1,1 +1,2 @@
- lib="C:\Program Files\Orcad\Capture\Library\PSpice\tex_inst.lib", offset=41655, size=1166
+ lib="C:\Program Files\Orcad\Capture\Library\PSpice\opamp.lib", offset=123893, size=208
+ lib="C:\Program Files\Orcad\Capture\Library\PSpice\opamp.lib", offset=120229, size=3665

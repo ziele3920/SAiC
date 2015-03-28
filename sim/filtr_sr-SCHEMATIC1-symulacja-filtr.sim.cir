@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 1000 10 100000
+.TRAN  0 1000ns 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\filtr_sr-SCHEMATIC1.net" 
 
