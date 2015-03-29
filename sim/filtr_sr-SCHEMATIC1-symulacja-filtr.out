@@ -1,5 +1,5 @@
 
-**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 17:13:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -31,19 +31,19 @@
 * source FILTR_SR
 X_U1         N00994 N00288 N00862 N00795 OUT TL061/301/TI
 V_V3         N00862 0 15Vdc
-R_R1         IN N00261  10k  
-R_R6         0 N00261  1.6k  
+R_R1         IN N00261  9.9k  
+R_R6         0 N00261  1.57k  
 R_R5         0 N00994  1k  
-R_R3         OUT N00288  120k  
+R_R3         OUT N00288  120.8k  
 V_V1         IN 0 DC 0Vdc AC 1Vac 
-C_C2         N00261 N00288  3.3n  
-C_C4         N00261 OUT  3.3n  
+C_C2         N00261 N00288  3.15n  
+C_C4         N00261 OUT  3.15n  
 V_V2         0 N00795 15Vdc
 
 **** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 17:13:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -60,7 +60,7 @@ V_V2         0 N00795 15Vdc
           IS  800.000000E-18 
 
 
-**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 17:13:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -80,7 +80,7 @@ V_V2         0 N00795 15Vdc
           IS   15.000000E-12 
 
 
-**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 17:13:40 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -95,11 +95,11 @@ V_V2         0 N00795 15Vdc
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(   IN)    0.0000  (  OUT) 13.01E-06  (N00261)    0.0000 (N00288) 7.582E-06     
+(   IN)    0.0000  (  OUT) 13.04E-06  (N00261)    0.0000 (N00288) 7.582E-06     
 
-(N00795)  -15.0000 (N00862)   15.0000 (N00994)-45.21E-09 (X_U1.6)-20.46E-09     
+(N00795)  -15.0000 (N00862)   15.0000 (N00994)-45.21E-09 (X_U1.6)-20.52E-09     
 
-(X_U1.7) 13.02E-06 (X_U1.8) 13.02E-06 (X_U1.9)    0.0000 (X_U1.10)    -.4883    
+(X_U1.7) 13.05E-06 (X_U1.8) 13.05E-06 (X_U1.9)    0.0000 (X_U1.10)    -.4883    
 
 (X_U1.11)  -14.7210                   (X_U1.12)  -14.7210                       
 
@@ -118,7 +118,7 @@ V_V2         0 N00795 15Vdc
     V_V3        -2.525E-04
     V_V1         0.000E+00
     V_V2        -2.526E-04
-    X_U1.VB     -2.046E-13
+    X_U1.VB     -2.052E-13
     X_U1.VC      1.280E-11
     X_U1.VE      1.280E-11
     X_U1.VLIM    4.521E-11
@@ -131,5 +131,5 @@ V_V2         0 N00795 15Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .13
+          TOTAL JOB TIME             .17
 
