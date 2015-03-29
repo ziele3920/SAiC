@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.3"
+    ComputedModelVersion    "1.4"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -41,7 +41,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [133.0, 187.0, 1032.0, 768.0]
+      Location		      [787.0, 119.0, 1032.0, 768.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -77,9 +77,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Zio³o"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Mar 29 19:52:56 2015"
-  RTWModifiedTimeStamp	  349557786
-  ModelVersionFormat	  "1.%<AutoIncrement:3>"
+  LastModifiedDate	  "Sun Mar 29 20:37:26 2015"
+  RTWModifiedTimeStamp	  349561915
+  ModelVersionFormat	  "1.%<AutoIncrement:4>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -807,7 +807,7 @@ Model {
   }
   System {
     Name		    "trans_Matlab"
-    Location		    [133, 187, 1165, 955]
+    Location		    [787, 119, 1819, 887]
     Open		    on
     ModelBrowserVisibility  on
     ModelBrowserWidth	    200
@@ -867,8 +867,8 @@ Model {
       SID		      "1"
       Position		      [310, 192, 370, 228]
       ZOrder		      1
-      Numerator		      "[-1/31746.03 0]"
-      Denominator	      "[1 5291.005 618915491]"
+      Numerator		      "[-30337.867647 0]"
+      Denominator	      "[1 5971.06 5.9895*10^8]"
     }
     Line {
       SrcBlock		      "Step"
