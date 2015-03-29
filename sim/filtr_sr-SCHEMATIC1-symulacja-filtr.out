@@ -1,5 +1,5 @@
-
-**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 1000 10 100000
+.AC DEC 1000 300 30000
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\filtr_sr-SCHEMATIC1.net" 
 
@@ -43,7 +43,7 @@ V_V2         0 N00795 15Vdc
 **** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -60,7 +60,7 @@ V_V2         0 N00795 15Vdc
           IS  800.000000E-18 
 
 
-**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -80,7 +80,7 @@ V_V2         0 N00795 15Vdc
           IS   15.000000E-12 
 
 
-**** 03/22/15 13:56:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 12:07:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ f:\air\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -131,5 +131,5 @@ V_V2         0 N00795 15Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .25
+          TOTAL JOB TIME             .13
 

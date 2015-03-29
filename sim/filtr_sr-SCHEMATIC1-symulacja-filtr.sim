@@ -3,10 +3,10 @@
 @Settings: 2 1
 @General:
 ProfileName= "symulacja-filtr" 
-ProfileFile= "filtr_sr-SCHEMATIC1-symulacja-filtr.sim" 
+ProfileFile= "filtr_sr-schematic1-symulacja-filtr.sim" 
 DesignFile= "filtr_sr.dsn" 0 
 ProjectFile= "filtr_sr.opj" 
-NetlistFile= "filtr_sr-SCHEMATIC1-symulacja-filtr.sim.cir" 
+NetlistFile= "filtr_sr-schematic1-symulacja-filtr.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "filtr_sr-SCHEMATIC1-symulacja-filtr.dat" 
 OutFile= "filtr_sr-SCHEMATIC1-symulacja-filtr.out" 
@@ -27,8 +27,8 @@ Notes=
 @Analysis: 1 1
 +2 0 0
 +0 "1000" 
-+1 "10" 
-+2 "100000" 
++1 "300" 
++2 "30000" 
 +3 "" 
 +4 "" 
 +5 "" 
