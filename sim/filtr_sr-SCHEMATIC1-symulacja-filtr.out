@@ -1,5 +1,5 @@
 
-**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 21:37:56 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -36,12 +36,12 @@ V_V1         N01199 0 20Vdc
 C_C3         0 OUT  1u  
 R_R5         N02512 OUT  7.8k  
 C_1n         0 OUT  1u  
-X_U4         N01199 OUT N02512 LM7805C
+X_U5         N01199 N02512 OUT LM317
 
 **** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 21:37:56 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -54,15 +54,12 @@ X_U4         N01199 OUT N02512 LM7805C
 
 
 
-               X_U4.x1.Dlim    X_U4.x1.Dz      
-          IS   10.000000E-15   50.000000E-15 
-          BV                    7.11         
-         IBV                   50.000000E-09 
-          RS                    3            
-          VJ     .7                          
+               X_U5.DMOD       
+          IS   30.000000E-15 
+           N    1.701        
 
 
-**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 21:37:56 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -75,23 +72,24 @@ X_U4         N01199 OUT N02512 LM7805C
 
 
 
-               X_U4.x1.Npn1    
+               X_U5.QPASSMOD   
                NPN             
-          IS   10.000000E-15 
+          IS   30.000000E-15 
           BF   50            
-          NF    1            
+          NF    1.701        
+         VAF    1.5          
           BR    1            
           NR    1            
           CN    2.42         
            D     .87         
 
 
-**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 21:37:56 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
- ****     Voltage Controlled Switch MODEL PARAMETERS
+ ****     Junction FET MODEL PARAMETERS
 
 
 ******************************************************************************
@@ -99,15 +97,14 @@ X_U4         N01199 OUT N02512 LM7805C
 
 
 
-               X_U4.x1.Sbg1    
-         RON    1            
-        ROFF    1.000000E+06 
-         VON    3.7          
-        VOFF    3            
+               X_U5.JADJMOD    
+               NJF             
+         VTO   -1            
+        BETA   50.000000E-06 
 
 
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .02
+          TOTAL JOB TIME             .06
 

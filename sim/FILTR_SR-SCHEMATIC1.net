@@ -6,4 +6,4 @@ V_V1         N01199 0 20Vdc
 C_C3         0 OUT  1u  
 R_R5         N02512 OUT  7.8k  
 C_1n         0 OUT  1u  
-X_U4         N01199 OUT N02512 LM7805C
+X_U5         N01199 N02512 OUT LM317
