@@ -1,5 +1,5 @@
 
-**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 1000ns 0 
+.DC LIN V_V1 0 30 1 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\filtr_sr-SCHEMATIC1.net" 
 
@@ -31,19 +31,18 @@
 * source FILTR_SR
 C_C1         0 N01199  1n  
 C_C2         0 N01199  1n  
-R_R6         0 N00865  3k  
+R_R6         0 N02512  2k  
 V_V1         N01199 0 20Vdc
 C_C3         0 OUT  1n  
-R_R5         N00865 OUT  10k  
-R_R66         0 N00865  2k  
+R_R5         N02512 OUT  10k  
+R_R3         0 N02512  2.4k  
 C_1n         0 OUT  400n  
-R_R4         N00325 OUT  2k  
-X_U4         N01199 N00325 N00865 LM7805C
+X_U4         N01199 OUT N02512 LM7805C
 
 **** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -64,7 +63,7 @@ X_U4         N01199 N00325 N00865 LM7805C
           VJ     .7                          
 
 
-**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -88,7 +87,7 @@ X_U4         N01199 N00325 N00865 LM7805C
            D     .87         
 
 
-**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -107,57 +106,9 @@ X_U4         N01199 N00325 N00865 LM7805C
          VON    3.7          
         VOFF    3            
 
-
-**** 03/28/15 23:32:53 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
-
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
-
-
- ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
-
-
-******************************************************************************
-
-
-
- NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
-
-
-(  OUT)   10.7450  (N00325)   11.5780 (N00865)    6.5809 (N01199)   20.0000     
-
-(X_U4.x1.4)   12.8550                 (X_U4.x1.5)   12.8470                     
-
-(X_U4.x1.6)   12.2160                 (X_U4.x1.7)   11.5800                     
-
-(X_U4.x1.8)   11.5780                 (X_U4.x1.9)   11.5780                     
-
-(X_U4.x1.55)   11.6110                (X_U4.x1.56)   12.6910                    
-
-(X_U4.x1.100)    7.4000               (X_U4.x1.101)    3.7007                   
-
-(X_U4.x1.102)   13.4190               (X_U4.x1.105)    6.2746                   
-
-(X_U4.x1.106)    6.2746               (X_U4.x1.107)    1.0000                   
-
-(X_U4.x1.108)   12.4190               (X_U4.x1.200) 1665.0000               
-
-
-
-
-    VOLTAGE SOURCE CURRENTS
-    NAME         CURRENT
-
-    V_V1        -5.484E-03
-    X_U4.x1.Vbg  -3.699E+00
-    X_U4.x1.Vgainf  -1.665E+03
-    X_U4.x1.Vl1   6.155E-12
-    X_U4.x1.Vl2   5.285E-12
-
-    TOTAL POWER DISSIPATION   2.77E+06  WATTS
-
 
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .02
+          TOTAL JOB TIME             .03
 

@@ -57,12 +57,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\users\jakub\desktop\saic\sim\filtr_sr.dsn")
-      (Path "Design Resources" "c:\users\jakub\desktop\saic\sim\filtr_sr.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\filtr_sr.dsn")
+      (Path "Design Resources" ".\filtr_sr.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" "c:\users\jakub\desktop\saic\sim\filtr_sr.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\filtr_sr.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
