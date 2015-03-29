@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.4"
+    ComputedModelVersion    "1.5"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -41,7 +41,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [787.0, 119.0, 1032.0, 768.0]
+      Location		      [203.0, 29.0, 1032.0, 768.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -77,9 +77,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Zio³o"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Mar 29 20:37:26 2015"
-  RTWModifiedTimeStamp	  349561915
-  ModelVersionFormat	  "1.%<AutoIncrement:4>"
+  LastModifiedDate	  "Sun Mar 29 21:20:01 2015"
+  RTWModifiedTimeStamp	  349564570
+  ModelVersionFormat	  "1.%<AutoIncrement:5>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -807,7 +807,7 @@ Model {
   }
   System {
     Name		    "trans_Matlab"
-    Location		    [787, 119, 1819, 887]
+    Location		    [203, 29, 1235, 797]
     Open		    on
     ModelBrowserVisibility  on
     ModelBrowserWidth	    200
@@ -830,7 +830,7 @@ Model {
       Position		      [505, 194, 535, 226]
       ZOrder		      3
       Floating		      off
-      Location		      [5, 48, 1925, 1039]
+      Location		      [88, 293, 872, 921]
       Open		      off
       NumInputPorts	      "1"
       List {
@@ -848,6 +848,9 @@ Model {
 	MarkerStyles		"none|none|none|none|none|none"
       }
       ShowLegends	      off
+      TimeRange		      "9.958506224066403e-05"
+      YMin		      "-0.415300546448087"
+      YMax		      "-0.3387978142076498"
       DataFormat	      "StructureWithTime"
       SampleTime	      "0"
     }
@@ -867,8 +870,8 @@ Model {
       SID		      "1"
       Position		      [310, 192, 370, 228]
       ZOrder		      1
-      Numerator		      "[-30337.867647 0]"
-      Denominator	      "[1 5971.06 5.9895*10^8]"
+      Numerator		      "[-31746.03 0]"
+      Denominator	      "[1 5291.005 618915491]"
     }
     Line {
       SrcBlock		      "Step"
