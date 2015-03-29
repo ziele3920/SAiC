@@ -1,10 +1,9 @@
 * source FILTR_SR
-C_C1         0 N01199  1n  
-C_C2         0 N01199  1n  
-R_R6         0 N02512  2k  
+C_C1         0 N01199  1u  
+C_C2         0 N01199  1u  
+R_R6         0 N02512  1k  
 V_V1         N01199 0 20Vdc
-C_C3         0 OUT  1n  
-R_R5         N02512 OUT  10k  
-R_R3         0 N02512  2.4k  
-C_1n         0 OUT  400n  
+C_C3         0 OUT  1u  
+R_R5         N02512 OUT  7.8k  
+C_1n         0 OUT  1u  
 X_U4         N01199 OUT N02512 LM7805C

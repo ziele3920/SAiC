@@ -1,7 +1,7 @@
 
-**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.DC LIN V_V1 0 30 1 
+.DC LIN V_V1 0 50 1 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\filtr_sr-SCHEMATIC1.net" 
 
@@ -29,22 +29,21 @@
 
 **** INCLUDING filtr_sr-SCHEMATIC1.net ****
 * source FILTR_SR
-C_C1         0 N01199  1n  
-C_C2         0 N01199  1n  
-R_R6         0 N02512  2k  
+C_C1         0 N01199  1u  
+C_C2         0 N01199  1u  
+R_R6         0 N02512  1k  
 V_V1         N01199 0 20Vdc
-C_C3         0 OUT  1n  
-R_R5         N02512 OUT  10k  
-R_R3         0 N02512  2.4k  
-C_1n         0 OUT  400n  
+C_C3         0 OUT  1u  
+R_R5         N02512 OUT  7.8k  
+C_1n         0 OUT  1u  
 X_U4         N01199 OUT N02512 LM7805C
 
 **** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -63,9 +62,9 @@ X_U4         N01199 OUT N02512 LM7805C
           VJ     .7                          
 
 
-**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     BJT MODEL PARAMETERS
@@ -87,9 +86,9 @@ X_U4         N01199 OUT N02512 LM7805C
            D     .87         
 
 
-**** 03/29/15 12:15:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/29/15 13:43:23 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
+ ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
 
  ****     Voltage Controlled Switch MODEL PARAMETERS
@@ -110,5 +109,5 @@ X_U4         N01199 OUT N02512 LM7805C
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .03
+          TOTAL JOB TIME             .02
 
