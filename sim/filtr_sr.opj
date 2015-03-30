@@ -66,10 +66,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1666 50 661")
-        (Scroll "431 370")
-        (Zoom "240")
+        (Placement "44 2 3 -1 -1 -8 -30 50 895 50 474")
+        (Scroll "0 30")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "F:\AIR\SAIC\SAIC\SIM\FILTR_SR.DSN")
+      (Path "C:\USERS\JAKUB\DESKTOP\SAIC\SAIC\SIM\FILTR_SR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
