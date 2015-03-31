@@ -1,5 +1,5 @@
-
-**** 03/30/15 15:46:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 03/31/15 12:27:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -41,7 +41,7 @@ X_U5         N01199 N02512 OUT LM317
 **** RESUMING filtr_sr-schematic1-symulacja-filtr.sim.cir ****
 .END
 
-**** 03/30/15 15:46:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/31/15 12:27:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -59,7 +59,7 @@ X_U5         N01199 N02512 OUT LM317
            N    1.701        
 
 
-**** 03/30/15 15:46:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/31/15 12:27:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -84,7 +84,7 @@ X_U5         N01199 N02512 OUT LM317
            D     .87         
 
 
-**** 03/30/15 15:46:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 03/31/15 12:27:28 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-symulacja-filtr"  [ c:\users\jakub\desktop\saic\saic\sim\filtr_sr-schematic1-symulacja-filtr.sim ] 
 
@@ -106,5 +106,5 @@ X_U5         N01199 N02512 OUT LM317
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .02
+          TOTAL JOB TIME             .11
 
