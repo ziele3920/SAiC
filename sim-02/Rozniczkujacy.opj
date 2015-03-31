@@ -64,10 +64,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 895 50 474")
-        (Scroll "0 139")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1666 50 661")
+        (Scroll "0 0")
+        (Zoom "120")
         (Occurrence "/"))
-      (Path "C:\USERS\JAKUB\DESKTOP\SAIC\SIM-02\ROZNICZKUJACY.DSN")
+      (Path "F:\AIR\SAIC\SAIC\SIM-02\ROZNICZKUJACY.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
