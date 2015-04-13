@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  11 APR 2015 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  13 APR 2015 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -452,36 +452,52 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen122
 \l_MT_above_shortintertext_sep=\dimen123
 \l_MT_below_shortintertext_sep=\dimen124
+)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@tempdima=\dimen128
+\caption@indent=\dimen129
+\caption@parindent=\dimen130
+\caption@hangindent=\dimen131
+)
+\c@ContinuedFloat=\count105
 ) (./Zasilacz.aux)
 \openout1 = `Zasilacz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen125
+\scratchcounter=\count106
+\scratchdimen=\dimen132
 \scratchbox=\box28
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count107
+\nofMParguments=\count108
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen126
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen133
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
 \everyMPtoPDFconversion=\toks25
 ) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -531,64 +547,158 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OML+plm on input line 20.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 21.
 
 (/usr/share/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 20.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 21.
 
 
 (/usr/share/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 20.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 21.
 
 
 (/usr/share/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 20.
+(Font)              <14.4> on input line 21.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 20.
+(Font)              <10> on input line 21.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 21.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 45.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 45.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 44.
+(Font)              <6> on input line 45.
 
 <schemat_ukladu.png, id=15, 576.65437pt x 222.07968pt>
 File: schemat_ukladu.png Graphic file (type png)
 
 <use schemat_ukladu.png>
-Package pdftex.def Info: schemat_ukladu.png used on input line 68.
+Package pdftex.def Info: schemat_ukladu.png used on input line 69.
 (pdftex.def)             Requested size: 390.0pt x 150.20229pt.
- [2 <./schemat_ukladu.png (PNG copy)>] [3]
-<charak-napieciowa1.jpg, id=30, 608.2725pt x 362.85562pt>
-File: charak-napieciowa1.jpg Graphic file (type jpg)
-
-<use charak-napieciowa1.jpg>
-Package pdftex.def Info: charak-napieciowa1.jpg used on input line 113.
-(pdftex.def)             Requested size: 350.99762pt x 209.38782pt.
-
-<charak-napieciowa2.jpg, id=31, 612.78937pt x 363.60844pt>
-File: charak-napieciowa2.jpg Graphic file (type jpg)
-
-<use charak-napieciowa2.jpg>
-Package pdftex.def Info: charak-napieciowa2.jpg used on input line 119.
-(pdftex.def)             Requested size: 350.99762pt x 208.26872pt.
+ [2 <./schemat_ukladu.png (PNG copy)>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 }
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.120 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.146 }
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 }
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 }
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package inputenc Error: Unicode char \u8:≠ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:≠ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:≠ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:≠ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3] <charak-napieciowa1.png, id=31, 722.7pt x 361.35pt>
+File: charak-napieciowa1.png Graphic file (type png)
+
+<use charak-napieciowa1.png>
+Package pdftex.def Info: charak-napieciowa1.png used on input line 153.
+(pdftex.def)             Requested size: 390.0pt x 194.99928pt.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10.95> on input line 154.
+
+<charak-napieciowa2.png, id=32, 722.7pt x 361.35pt>
+File: charak-napieciowa2.png Graphic file (type png)
+
+<use charak-napieciowa2.png>
+Package pdftex.def Info: charak-napieciowa2.png used on input line 159.
+(pdftex.def)             Requested size: 390.0pt x 194.99928pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -596,63 +706,164 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.120 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[4 <./charak-napieciowa1.jpg (PNG copy)> <./charak-napieciowa2.jpg (PNG copy)>]
-<charak-zew1.png, id=35, 573.64313pt x 320.69812pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[4 <./charak-napieciowa1.png (PNG copy)> <./charak-napieciowa2.png (PNG copy)>]
+<wzmocnienie1.png, id=38, 722.7pt x 361.35pt>
+File: wzmocnienie1.png Graphic file (type png)
+ <use wzmocnienie1.png>
+Package pdftex.def Info: wzmocnienie1.png used on input line 170.
+(pdftex.def)             Requested size: 390.0pt x 194.99928pt.
+
+<wzmocnienie2.png, id=39, 722.7pt x 359.84438pt>
+File: wzmocnienie2.png Graphic file (type png)
+ <use wzmocnienie2.png>
+Package pdftex.def Info: wzmocnienie2.png used on input line 176.
+(pdftex.def)             Requested size: 390.0pt x 194.18677pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[5 <./wzmocnienie1.png (PNG copy)> <./wzmocnienie2.png (PNG copy)>]
+<charak-zew1.png, id=43, 722.7pt x 361.35pt>
 File: charak-zew1.png Graphic file (type png)
  <use charak-zew1.png>
-Package pdftex.def Info: charak-zew1.png used on input line 131.
-(pdftex.def)             Requested size: 292.5pt x 163.5245pt.
+Package pdftex.def Info: charak-zew1.png used on input line 187.
+(pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
 
-<charak-zew2.png, id=36, 568.37344pt x 316.18124pt>
+<charak-zew2.png, id=44, 722.7pt x 361.35pt>
 File: charak-zew2.png Graphic file (type png)
  <use charak-zew2.png>
-Package pdftex.def Info: charak-zew2.png used on input line 137.
-(pdftex.def)             Requested size: 292.5pt x 162.72177pt.
-
-[5 <./charak-zew1.png (PNG copy)> <./charak-zew2.png (PNG copy)>]
+Package pdftex.def Info: charak-zew2.png used on input line 193.
+(pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
+ [6 <./charak-zew1.png (PNG copy)> <./charak-zew2.png (PNG copy)>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.151 ...=0 to 12.5V a dla I\textsubscript{wy}\neq
+l.210 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                  &
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.210 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                  &
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.211 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.211 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                   \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[7]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.251 ...=0 to 12.5V a dla I\textsubscript{wy}\neq
                                                   0$ to 13V.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[6] (./Zasilacz.aux) ) 
+[8] (./Zasilacz.aux) ) 
 Here is how much of TeX's memory you used:
- 3910 strings out of 493108
- 50790 string characters out of 6140726
- 122312 words of memory out of 5000000
- 7278 multiletter control sequences out of 15000+600000
- 20961 words of font info for 47 fonts, out of 8000000 for 9000
+ 4968 strings out of 493108
+ 69970 string characters out of 6140726
+ 166892 words of memory out of 5000000
+ 8328 multiletter control sequences out of 15000+600000
+ 22895 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,35p,315b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-
-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texmf-dis
-t/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.en
-c}</usr/share/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/share/texmf-dis
-t/fonts/type1/public/pl/plmi8.pfb></usr/share/texmf-dist/fonts/type1/public/pl/
-plr12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/tex
-mf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/cm-super/sfbi1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
-bx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></us
-r/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-d
-ist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1
-/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
-r/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/tex
-mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
-super/sfti1440.pfb>
-Output written on Zasilacz.pdf (6 pages, 328616 bytes).
+ 41i,16n,38p,305b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/
+share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/share/texmf-dist/fonts/enc/d
+vips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/pl/plms.en
+c}</usr/share/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/pl/plmi12.pfb></usr/share/texmf-dist/fonts/type1/public/pl
+/plmi8.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/pl/plr12.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/pl/plr8.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/
+share/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/share/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/
+sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></
+usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf
+-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
+per/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pf
+b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/t
+exmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf-dist/fonts
+/type1/public/cm-super/sfti1440.pfb>
+Output written on Zasilacz.pdf (8 pages, 423885 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
