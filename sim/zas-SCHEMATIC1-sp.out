@@ -1,0 +1,155 @@
+
+**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "zas-SCHEMATIC1-sp.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 500un 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\zas-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING zas-SCHEMATIC1.net ****
+* source ZAS
+V_V1         N00533 0 9Vdc
+R_R1         0 N00583  40  
+Q_Q1         N00533 N01000 N00567 Q2N5339
+L_L1         N00567 N00583  480u  
+C_C1         0 N00583  7u  
+D_D1         0 N00567 D1N5818 
+V_V2         N00567 N01000  
++PULSE -2 1.5 0 50n 50n 30n 40n
+
+**** RESUMING zas-SCHEMATIC1-sp.sim.cir ****
+.END
+
+**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N5818         
+          IS    2.835000E-06 
+         ISR   26.460000E-06 
+         IKF     .3227       
+          RS     .04712      
+         CJO  359.300000E-12 
+          VJ     .75         
+           M     .6513       
+         XTI    0            
+
+
+**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N5339         
+               NPN             
+          IS  571.460100E-15 
+          BF  152.57         
+          NF     .980593     
+         VAF   61.17481      
+         IKF    9.7          
+         ISE   72.105200E-15 
+          NE    1.19901      
+          BR   13.852        
+          NR     .9784       
+         VAR   48.65353      
+         IKR     .6209       
+         ISC  630.000000E-15 
+          NC    1.111554     
+          RB   13.93         
+         RBM    1.229481     
+         IRB  658.343600E-06 
+          RE    1.000000E-03 
+          RC     .1875       
+         CJE    1.302694E-09 
+         VJE     .634674     
+         MJE     .330941     
+         CJC  356.902600E-12 
+         VJC     .451986     
+         MJC     .411802     
+          FC     .763253     
+          TF    1.050000E-09 
+         XTF   26.935        
+         VTF     .276687     
+         ITF    2.072457     
+         PTF    9.69         
+          TR  200.000000E-09 
+         XTB    1.886        
+         XTI    6.7495       
+          CN    2.42         
+           D     .87         
+
+
+WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
+WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
+**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00533)    9.0000 (N00567)    8.9440 (N00583)    8.9440 (N01000)   10.9440 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.237E-01
+    V_V2         8.099E-01
+
+    TOTAL POWER DISSIPATION   3.63E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            7.58
+

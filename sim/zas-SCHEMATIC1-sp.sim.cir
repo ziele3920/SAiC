@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+
+** Creating circuit file "zas-SCHEMATIC1-sp.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 500un 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\zas-SCHEMATIC1.net" 
+
+
+.END
