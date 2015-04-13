@@ -261,7 +261,8 @@ nagły wzrost rezystancji, który przeciwdziała przekroczeniu zadanego napięci
 \section {Wnioski}
 
 \begin{enumerate}
-  
+
+ 
 \item Zgodnie z założeniami teoretycznymi układ utrzymuje na swoim wyjściu stałe napięcie równe 11V , w związku z niedokładnością użytych
   elementów maksymalny prąd wyjściowy różni się od założeń jednak nie jest to duża rozbieżność (około 0.70 A wobec założonych 0.60 A).
   
