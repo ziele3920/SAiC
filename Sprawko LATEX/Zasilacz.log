@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  13 APR 2015 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  13 APR 2015 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,78 +797,78 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [5 <./wzmocnienie1.png (PNG copy)> <./wzmocnienie2.png (PNG copy)>]
-<charak-zew1.png, id=43, 722.7pt x 361.35pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.190 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                  &
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.190 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                  &
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.191 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                   \\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.191 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+                                                   \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[6] <charak-zew1.png, id=46, 722.7pt x 361.35pt>
 File: charak-zew1.png Graphic file (type png)
  <use charak-zew1.png>
-Package pdftex.def Info: charak-zew1.png used on input line 189.
+Package pdftex.def Info: charak-zew1.png used on input line 227.
 (pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
 
-<charak-zew2.png, id=44, 722.7pt x 359.84438pt>
+<charak-zew2.png, id=47, 722.7pt x 359.84438pt>
 File: charak-zew2.png Graphic file (type png)
  <use charak-zew2.png>
-Package pdftex.def Info: charak-zew2.png used on input line 195.
+Package pdftex.def Info: charak-zew2.png used on input line 233.
 (pdftex.def)             Requested size: 350.99762pt x 174.7659pt.
- [6 <./charak-zew1.png (PNG copy)> <./charak-zew2.png (PNG copy)>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.209 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
-                                                  &
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.209 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
-                                                  &
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.210 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
-                                                   \\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.210 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
-                                                   \\ \hline
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[7] <rezystancja1.png, id=52, 722.7pt x 361.35pt>
+ [7 <./charak-zew1.png (PNG copy)> <./charak-zew2.png (PNG copy)>]
+<rezystancja1.png, id=52, 722.7pt x 361.35pt>
 File: rezystancja1.png Graphic file (type png)
  <use rezystancja1.png>
-Package pdftex.def Info: rezystancja1.png used on input line 245.
+Package pdftex.def Info: rezystancja1.png used on input line 246.
 (pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
 
 <rezystancja2.png, id=53, 722.7pt x 361.35pt>
 File: rezystancja2.png Graphic file (type png)
  <use rezystancja2.png>
-Package pdftex.def Info: rezystancja2.png used on input line 251.
+Package pdftex.def Info: rezystancja2.png used on input line 252.
 (pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
  [8 <./rezystancja1.png (PNG copy)> <./rezystancja2.png (PNG copy)>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.267 ...wynosi 1.5V a dla I\textsubscript{wy}\neq
-                                                  0$ to 2V.
+l.269 ...okoÅ‚o 1.5V a dla I\textsubscript{wy}\neq
+                                                  0$ okoÅ‚o 2V. Z czego wyni...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (24.7076pt too wide) in paragraph at lines 269--271
+Overfull \hbox (24.7076pt too wide) in paragraph at lines 272--274
 []\T1/cmr/m/n/12 W sta-bi-li-za-to-rze kom-pen-sa-cyj-nym uda-ªo nam si¦ za-ob-
 ser-wo-wa¢ tzw.foldback
  []
@@ -881,7 +881,7 @@ Here is how much of TeX's memory you used:
  8335 multiletter control sequences out of 15000+600000
  22895 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,38p,305b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,38p,325b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/
 share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/share/texmf-dist/fonts/enc/d
 vips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/pl/plms.en
@@ -901,7 +901,7 @@ per/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pf
 b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfti1440.pfb>
-Output written on Zasilacz.pdf (9 pages, 470908 bytes).
+Output written on Zasilacz.pdf (9 pages, 471336 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
