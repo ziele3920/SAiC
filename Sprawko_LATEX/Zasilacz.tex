@@ -24,9 +24,9 @@
   \centering
   \begin{tabular}{|ll|l|}
     \hline
-    \multicolumn{1}{|l|}{Data: 7.04.2015r}                  & \multicolumn{2}{l|}{Dzień: Wtorek}                                     \\ \hline
+    \multicolumn{1}{|l|}{Data: 14.04.2015r}                  & \multicolumn{2}{l|}{Dzień: Wtorek}                                     \\ \hline
     \multicolumn{1}{|l|}{Grupa: VII}                        & \multicolumn{2}{l|}{Godzina: 12:15-15:00}                               \\ \hline
-    \multicolumn{3}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}\textbf{Temat ćwiczenia:} \\ Liniowe stabilizatory napięcia\end{tabular}}} \\ \hline
+    \multicolumn{3}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}\textbf{Temat ćwiczenia:} \\ Zasilacz impulsowy [DC/DC]\end{tabular}}} \\ \hline
     \textbf{Dane projektowe:}                               & \multicolumn{2}{l|}{}                                              \\
     U\textsubscript{0}=11.00 V                              & \multicolumn{2}{l|}{I\textsubscript{0}=0.60}                         \\ \hline
     \multicolumn{1}{|l|}{\textbf{l.p}}                    & \textbf{Nazwisko i imię}                 & \textbf{Oceny}               \\ \hline
@@ -40,25 +40,34 @@
 \pagebreak
 \section{Zadanie projektowe}
 Zaprojektować zasilacz stabilizowany o zadanych parametrach :
-\begin{enumerate}
-\item U\textsubscript{0}=11.00 V
-\item I\textsubscript{0}=0.60 A
-\end{enumerate}
+\begin{itemize}
+\item U\textsubscript{we}=9.00 V
+\item U\textsubscript{wy}=6.00 V
+\item I\textsubscript{max}=0.25 A
+\end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CZĘŚĆ PROJEKTOWA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Obliczenia projektowe}
 
 \begin{equation}
-  U_0=(1+\frac{R_5}{R_6})U_{REF} \quad \to \quad (1+\frac{3k\Omega}{1k\Omega})2.75 V = 11 V
+I_{pk}=I_{Lpk}=2I_{0max}=2*0.25=0.5 A
 \end{equation}
 
 \begin{equation}
-  R_5+R_6 \leq \frac{U_0}{1mA} \quad \to \quad 4k\Omega \leq 11k\Omega 
+\mathbf{R_{SC}}=\frac{0.3V}{I_{pk}}=\frac{0.3}{0.5}=\mathbf{0.6 \Omega}
 \end{equation}
 
 \begin{equation}
-  I_0=\frac{U_{sc}}{R_4} \quad \to \quad \frac{0.45V}{0.68\Omega}=0.66 A      
+Zakładamy \quad \mathbf{R_1=1.8k\Omega}   \quad \to \quad   \mathbf{R_2}=R_1 \frac {|U_0|-1.25V}{1.25V} = 1800\frac{6-1.25}{1.25}= \mathbf{6.8k \Omega}
+\end{equation}
+
+\begin{equation}
+Zakładamy \quad T=40us \quad \to \quad t_{on}=T\frac{U_0}{U_i}=40*10^{-6}\frac{6}{9}=26.67us, \quad t_{off}=13.33us
+\end{equation}
+
+\begin{equation}
+\mathbf{L_{min}}=\frac{U_{imin}-U_{CEsat}-U_0}{I_{Lpk}} \frac{U_0}{U_{imin}}T=\frac{8-1-6}{0.5} \frac{6}{8}40*10^{-6}=dupa!
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
