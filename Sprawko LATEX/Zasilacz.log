@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  14 APR 2015 09:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  14 APR 2015 09:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,13 +576,32 @@ LaTeX Font Info:    External font `plex10' loaded for size
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.33     R\textsubscript{4}=0.68\Omega
-                                      }                       & \multicolumn...
+l.32     R\textsubscript{4}=0.68\Omega
+                                                              & \multicolumn...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...ipt{4}=0.68\Omega                        &
+                                                   \multicolumn{2}{l|}{I\tex...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33     R\textsubscript{5}=3k\Omega
+                                    }                         & \multicolumn...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.33     R\textsubscript{4}=0.68\Omega}
+l.33     R\textsubscript{5}=3k\Omega}
                                                               & \multicolumn...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -593,27 +612,8 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.33 ...ipt{4}=0.68\Omega}                       &
-                                                   \multicolumn{2}{l|}{R\tex...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...column{2}{l|}{R\textsubscript{5}=3k\Omega}
-                                                                            \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 ...column{2}{l|}{R\textsubscript{5}=3k\Omega}
-                                                                            \\
+l.33 ...ipt{5}=3k\Omega}                         &
+                                                   \multicolumn{2}{l|}{U\tex...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
