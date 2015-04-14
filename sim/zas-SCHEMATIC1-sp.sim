@@ -3,10 +3,10 @@
 @Settings: 0 1
 @General:
 ProfileName= "sp" 
-ProfileFile= "zas-SCHEMATIC1-sp.sim" 
+ProfileFile= "zas-schematic1-sp.sim" 
 DesignFile= "zas.dsn" 0 
 ProjectFile= "zas.opj" 
-NetlistFile= "zas-SCHEMATIC1-sp.sim.cir" 
+NetlistFile= "zas-schematic1-sp.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "zas-SCHEMATIC1-sp.dat" 
 OutFile= "zas-SCHEMATIC1-sp.out" 
@@ -16,7 +16,7 @@ Notes=
 @End General
 @Analysis: 0 1
 +0 0 0 
-+0 "500un" 
++0 "1ms" 
 +1 "" 
 +2 "0" 
 +3 "" 

@@ -1,7 +1,7 @@
 
-**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+ ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "zas-SCHEMATIC1-sp.sim.cir" 
+** Creating circuit file "zas-schematic1-sp.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 500un 0 
+.TRAN  0 1ms 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\zas-SCHEMATIC1.net" 
 
@@ -30,20 +30,21 @@
 **** INCLUDING zas-SCHEMATIC1.net ****
 * source ZAS
 V_V1         N00533 0 9Vdc
-R_R1         0 N00583  40  
+R_R1         0 N00583  23  
 Q_Q1         N00533 N01000 N00567 Q2N5339
-L_L1         N00567 N00583  480u  
-C_C1         0 N00583  7u  
+L_L1         N00567 N00583  300u  
+C_C1         0 N00583  47u  
 D_D1         0 N00567 D1N5818 
-V_V2         N00567 N01000  
-+PULSE -2 1.5 0 50n 50n 30n 40n
+V_V2         N01000 N02703  
++PULSE -2 1.5 0 50n 50n 16.67n 25n
+R_R2         N02703 N00567  100  
 
-**** RESUMING zas-SCHEMATIC1-sp.sim.cir ****
+**** RESUMING zas-schematic1-sp.sim.cir ****
 .END
 
-**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+ ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -65,9 +66,9 @@ V_V2         N00567 N01000
          XTI    0            
 
 
-**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+ ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
 
  ****     BJT MODEL PARAMETERS
@@ -119,9 +120,9 @@ V_V2         N00567 N01000
 
 WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
 WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
-**** 04/13/15 23:13:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-sp"  [ F:\AiR\zas-SCHEMATIC1-sp.sim ] 
+ ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -134,7 +135,9 @@ WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N00533)    9.0000 (N00567)    8.9440 (N00583)    8.9440 (N01000)   10.9440 
+(N00533)    9.0000 (N00567) 282.4E-12 (N00583) 282.4E-12 (N01000)   -2.0000     
+
+(N02703) 437.8E-12 
 
 
 
@@ -142,14 +145,14 @@ WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -2.237E-01
-    V_V2         8.099E-01
+    V_V1        -1.246E-11
+    V_V2         1.554E-12
 
-    TOTAL POWER DISSIPATION   3.63E+00  WATTS
+    TOTAL POWER DISSIPATION   1.15E-10  WATTS
 
 
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME            7.58
+          TOTAL JOB TIME           12.98
 
