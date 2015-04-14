@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.13)  14 APR 2015 08:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.13)  14 APR 2015 09:30
 entering extended mode
 **Zasilacz.tex
 (Zasilacz.tex
@@ -509,32 +509,32 @@ LaTeX Font Info:    External font `plex10' loaded for size
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
 
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 46.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 46.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 44.
+(Font)              <6> on input line 46.
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 62.
+LaTeX Warning: Command \l invalid in math mode on input line 64.
 
 Missing character: There is no ª in font plmi12!
 
-Overfull \hbox (29.64746pt too wide) detected at line 63
+Overfull \hbox (29.64746pt too wide) detected at line 65
 \OML/plm/m/it/12 Zakadamy []  \OMS/plsy/m/n/12 !  [] \OT4/cmr/m/n/12 = \OML/plm
 /m/it/12 R[][] \OT4/cmr/m/n/12 = 1800[] = []
  []
 
 
-LaTeX Warning: Command \l invalid in math mode on input line 66.
+LaTeX Warning: Command \l invalid in math mode on input line 68.
 
 Missing character: There is no ª in font plmi12!
 
@@ -544,7 +544,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...raphics[width=1\textwidth]{schemat_ukladu}
+l.83 ...raphics[width=1\textwidth]{schemat_ukladu}
                                                   
 ? q
 OK, entering \batchmode...
@@ -556,7 +556,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 ...width=0.90\textwidth]{charak-napieciowa1}
+l.128 ...width=0.90\textwidth]{charak-napieciowa1}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
@@ -570,7 +570,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 ...width=0.90\textwidth]{charak-napieciowa2}
+l.134 ...width=0.90\textwidth]{charak-napieciowa2}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
@@ -580,7 +580,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.133 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.135 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -588,7 +588,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.133 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.135 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -601,7 +601,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 ...aphics[width=0.75\textwidth]{charak-zew1}
+l.146 ...aphics[width=0.75\textwidth]{charak-zew1}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
@@ -615,7 +615,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 ...aphics[width=0.75\textwidth]{charak-zew2}
+l.152 ...aphics[width=0.75\textwidth]{charak-zew2}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2
@@ -625,7 +625,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.164 ...=0 to 12.5V a dla I\textsubscript{wy}\neq
+l.166 ...=0 to 12.5V a dla I\textsubscript{wy}\neq
                                                   0$ to 13V.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -660,9 +660,9 @@ C:/ProgramData/MiKTeX/2.9/fonts/type1/public/pl/plmi8.pfb><C:/ProgramData/MiKTe
 X/2.9/fonts/type1/public/pl/plr12.pfb><C:/ProgramData/MiKTeX/2.9/fonts/type1/pu
 blic/pl/plr8.pfb><C:/ProgramData/MiKTeX/2.9/fonts/type1/public/pl/plsy10.pfb><C
 :/ProgramData/MiKTeX/2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on Zasilacz.pdf (5 pages, 169110 bytes).
+Output written on Zasilacz.pdf (5 pages, 169332 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
+ 380 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
