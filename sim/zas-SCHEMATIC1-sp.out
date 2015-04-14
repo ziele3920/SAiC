@@ -1,5 +1,5 @@
 
-**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/14/15 08:26:03 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 1ms 0 
+.TRAN  0 10ms 0 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\zas-SCHEMATIC1.net" 
 
@@ -29,20 +29,20 @@
 
 **** INCLUDING zas-SCHEMATIC1.net ****
 * source ZAS
-V_V1         N00533 0 9Vdc
-R_R1         0 N00583  23  
-Q_Q1         N00533 N01000 N00567 Q2N5339
-L_L1         N00567 N00583  300u  
-C_C1         0 N00583  47u  
+V_V1         IN 0 9Vdc
+R_R2         N06257 N00567  100  
+R_R1         0 N00583  25  
+Q_Q1         IN N06308 N00567 Q2N5339
+L_L1         N00567 N00583  330uH  
+V_V3         N06308 N06257  
++PULSE -2 1.5 0 50n 50n 16.67u 25u
+C_C1         0 N00583  470u  
 D_D1         0 N00567 D1N5818 
-V_V2         N01000 N02703  
-+PULSE -2 1.5 0 50n 50n 16.67n 25n
-R_R2         N02703 N00567  100  
 
 **** RESUMING zas-schematic1-sp.sim.cir ****
 .END
 
-**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/14/15 08:26:03 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
@@ -66,7 +66,7 @@ R_R2         N02703 N00567  100
          XTI    0            
 
 
-**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/14/15 08:26:03 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
@@ -117,10 +117,8 @@ R_R2         N02703 N00567  100
           CN    2.42         
            D     .87         
 
-
-WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
-WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
-**** 04/14/15 07:33:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+**** 04/14/15 08:26:03 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sp"  [ f:\air\saic\sim\zas-schematic1-sp.sim ] 
 
@@ -135,9 +133,9 @@ WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N00533)    9.0000 (N00567) 282.4E-12 (N00583) 282.4E-12 (N01000)   -2.0000     
+(   IN)    9.0000  (N00567) 306.6E-12 (N00583) 306.6E-12 (N06257) 462.0E-12     
 
-(N02703) 437.8E-12 
+(N06308)   -2.0000 
 
 
 
@@ -146,7 +144,7 @@ WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
     NAME         CURRENT
 
     V_V1        -1.246E-11
-    V_V2         1.554E-12
+    V_V3         1.554E-12
 
     TOTAL POWER DISSIPATION   1.15E-10  WATTS
 
@@ -154,5 +152,5 @@ WARNING -- Pulse Period < (Rise Time + Fall Time + Pulse Width) for V_V2
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME           12.98
+          TOTAL JOB TIME            1.16
 
