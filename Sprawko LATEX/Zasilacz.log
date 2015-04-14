@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  13 APR 2015 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.1)  14 APR 2015 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -572,27 +572,94 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <10> on input line 21.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 21.
- [1
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33     R\textsubscript{4}=0.68\Omega
+                                      }                       & \multicolumn...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.33     R\textsubscript{4}=0.68\Omega}
+                                                              & \multicolumn...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...ipt{4}=0.68\Omega}                       &
+                                                   \multicolumn{2}{l|}{R\tex...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...column{2}{l|}{R\textsubscript{5}=3k\Omega}
+                                                                            \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...column{2}{l|}{R\textsubscript{5}=3k\Omega}
+                                                                            \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.34     R\textsubscript{6}=1k\Omega
+                                                              & \multicolumn...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.34 ...ipt{6}=1k\Omega                          &
+                                                   \multicolumn{2}{l|}{}\\\h...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 45.
+(Font)              <12> on input line 47.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 45.
+(Font)              <8> on input line 47.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 45.
+(Font)              <6> on input line 47.
 
-<schemat_ukladu.png, id=15, 576.65437pt x 222.07968pt>
+<schemat_ukladu.png, id=16, 576.65437pt x 222.07968pt>
 File: schemat_ukladu.png Graphic file (type png)
 
 <use schemat_ukladu.png>
-Package pdftex.def Info: schemat_ukladu.png used on input line 69.
+Package pdftex.def Info: schemat_ukladu.png used on input line 71.
 (pdftex.def)             Requested size: 390.0pt x 150.20229pt.
  [2 <./schemat_ukladu.png (PNG copy)>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -600,7 +667,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -611,7 +678,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -619,7 +686,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -630,7 +697,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -638,7 +705,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -649,7 +716,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -657,7 +724,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -668,7 +735,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -676,7 +743,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -687,7 +754,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -695,7 +762,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.146 }
+l.148 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -707,22 +774,22 @@ my insertion and my current dilemma will both disappear.
 File: charak-napieciowa1.png Graphic file (type png)
 
 <use charak-napieciowa1.png>
-Package pdftex.def Info: charak-napieciowa1.png used on input line 153.
+Package pdftex.def Info: charak-napieciowa1.png used on input line 155.
 (pdftex.def)             Requested size: 390.0pt x 194.18677pt.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 154.
+(Font)              <10.95> on input line 156.
 
 <charak-napieciowa2.png, id=32, 722.7pt x 359.84438pt>
 File: charak-napieciowa2.png Graphic file (type png)
 
 <use charak-napieciowa2.png>
-Package pdftex.def Info: charak-napieciowa2.png used on input line 159.
+Package pdftex.def Info: charak-napieciowa2.png used on input line 161.
 (pdftex.def)             Requested size: 390.0pt x 194.18677pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.162 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -730,7 +797,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.162 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -738,7 +805,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.162 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -746,7 +813,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...ript{we}) przu I\textsubscript{wy}\neq0A}
+l.162 ...ript{we}) przu I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -755,19 +822,19 @@ you left one out. Proceed, with fingers crossed.
 <wzmocnienie1.png, id=38, 722.7pt x 361.35pt>
 File: wzmocnienie1.png Graphic file (type png)
  <use wzmocnienie1.png>
-Package pdftex.def Info: wzmocnienie1.png used on input line 170.
+Package pdftex.def Info: wzmocnienie1.png used on input line 172.
 (pdftex.def)             Requested size: 390.0pt x 194.99928pt.
 
 <wzmocnienie2.png, id=39, 722.7pt x 359.84438pt>
 File: wzmocnienie2.png Graphic file (type png)
  <use wzmocnienie2.png>
-Package pdftex.def Info: wzmocnienie2.png used on input line 176.
+Package pdftex.def Info: wzmocnienie2.png used on input line 178.
 (pdftex.def)             Requested size: 390.0pt x 194.18677pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+l.179 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -775,7 +842,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+l.179 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -783,7 +850,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+l.179 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -791,7 +858,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.177 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
+l.179 ...(U_{we})$ przy I\textsubscript{wy}\neq0A}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -800,7 +867,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.190 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+l.193 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
                                                   &
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -808,7 +875,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.190 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+l.193 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
                                                   &
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -819,7 +886,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.191 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+l.194 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
                                                    \\ \hline
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -827,7 +894,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.191 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
+l.194 ...{\partial Uwy/ \partial Iwy[\frac{V}{A}]}
                                                    \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -838,37 +905,37 @@ my insertion and my current dilemma will both disappear.
 [6] <charak-zew1.png, id=46, 722.7pt x 361.35pt>
 File: charak-zew1.png Graphic file (type png)
  <use charak-zew1.png>
-Package pdftex.def Info: charak-zew1.png used on input line 227.
+Package pdftex.def Info: charak-zew1.png used on input line 230.
 (pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
 
-<charak-zew2.png, id=47, 722.7pt x 359.84438pt>
+<charak-zew2.png, id=47, 722.7pt x 357.58594pt>
 File: charak-zew2.png Graphic file (type png)
  <use charak-zew2.png>
-Package pdftex.def Info: charak-zew2.png used on input line 233.
-(pdftex.def)             Requested size: 350.99762pt x 174.7659pt.
+Package pdftex.def Info: charak-zew2.png used on input line 236.
+(pdftex.def)             Requested size: 350.99762pt x 173.66904pt.
  [7 <./charak-zew1.png (PNG copy)> <./charak-zew2.png (PNG copy)>]
 <rezystancja1.png, id=52, 722.7pt x 361.35pt>
 File: rezystancja1.png Graphic file (type png)
  <use rezystancja1.png>
-Package pdftex.def Info: rezystancja1.png used on input line 246.
+Package pdftex.def Info: rezystancja1.png used on input line 249.
 (pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
 
 <rezystancja2.png, id=53, 722.7pt x 361.35pt>
 File: rezystancja2.png Graphic file (type png)
  <use rezystancja2.png>
-Package pdftex.def Info: rezystancja2.png used on input line 252.
+Package pdftex.def Info: rezystancja2.png used on input line 255.
 (pdftex.def)             Requested size: 350.99762pt x 175.49715pt.
  [8 <./rezystancja1.png (PNG copy)> <./rezystancja2.png (PNG copy)>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.269 ...okoÅ‚o 1.5V a dla I\textsubscript{wy}\neq
+l.272 ...okoÅ‚o 1.5V a dla I\textsubscript{wy}\neq
                                                   0$ okoÅ‚o 2V. Z czego wyni...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (24.7076pt too wide) in paragraph at lines 272--274
+Overfull \hbox (24.7076pt too wide) in paragraph at lines 275--277
 []\T1/cmr/m/n/12 W sta-bi-li-za-to-rze kom-pen-sa-cyj-nym uda-ªo nam si¦ za-ob-
 ser-wo-wa¢ tzw.foldback
  []
@@ -901,7 +968,7 @@ per/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pf
 b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfti1440.pfb>
-Output written on Zasilacz.pdf (9 pages, 471336 bytes).
+Output written on Zasilacz.pdf (9 pages, 477506 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream

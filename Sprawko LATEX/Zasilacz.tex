@@ -28,8 +28,10 @@
     \multicolumn{1}{|l|}{Data: 7.04.2015r}                & \multicolumn{2}{l|}{Dzień: Wtorek}                                     \\ \hline
     \multicolumn{1}{|l|}{Grupa: VII}                      & \multicolumn{2}{l|}{Godzina: 12:15-15:00}                               \\ \hline
     \multicolumn{3}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}\textbf{Temat ćwiczenia:} \\ Liniowe stabilizatory napięcia\end{tabular}}} \\ \hline
-    \textbf{Dane projektowe:}                             & \multicolumn{2}{l|}{}                                              \\
-    U\textsubscript{0}=11.00 V                            & \multicolumn{2}{l|}{I\textsubscript{0}=0.60 A}                         \\ \hline
+    \textbf{Dane projektowe:}                             & \multicolumn{2}{l|}{}                                                 \\
+    U\textsubscript{0}=11.00 V                            & \multicolumn{2}{l|}{I\textsubscript{0}=0.60 A}                         \\
+    R\textsubscript{4}=0.68\Omega}                       & \multicolumn{2}{l|}{R\textsubscript{5}=3k\Omega}                          \\
+    R\textsubscript{6}=1k\Omega                          & \multicolumn{2}{l|}{}\\\hline
     \multicolumn{1}{|l|}{\textbf{l.p}}                    & \textbf{Nazwisko i imię}                 & \textbf{Oceny}               \\ \hline
     \multicolumn{1}{|l|}{1}                               & Arkadiusz Ziółkowski                     &                               \\ \hline
     \multicolumn{1}{|l|}{2}                               & Jakub Koban                              &                                \\ \hline
@@ -175,16 +177,17 @@ napięcia jakie udało nam się uzyskać z zasilacza czyli 30V. Świadczy to o t
   \center
   \includegraphics[width=1\textwidth]{wzmocnienie2}
   \caption{ $\frac{\partial U\textsubscript{wy}}{\partial U\textsubscript{we}}=f(U_{we})$ przy I\textsubscript{wy}\neq0A}
-\end{figure}
+\end{figure} 
 
-Wzpółczynnik stabilizacji napięciowej w pewnym momencie bardzo gwałtownie się zmienia z uwagi na dużą zmianę wartości napięcia (po uwzględnieniu
-dropoutu) z napięć bardzo niskich , które są trudno mieżalne z dużą dokładnością przez multimetr.Fragment przejściowy charakterystyki z rysunków 3
-i 4 odpowiada tutaj fragmentowi oscylującemu w okół jedynki. Oscylacje są spowodowane niedokładnością przyrządów pomiarowych. 
+Współczynnik stabilizacji napięciowej w pewnym momencie bardzo gwałtownie się zmienia z uwagi na to, iż wcześniej prąd dostarczany do układu był
+zbyt niski aby stabilizator zaczął pracować .Fragment przejściowy charakterystyk z rysunków 3 i 4 odpowiadaja fragmentom oscylującym w okół
+jedynki na rysunkach 5 i 6. Oscylacje są prawdopodobnie spowodowane niedokładnością przyrządów pomiarowych.
+
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Charakterystyki zewnętrzne}
 \begin{table}[h]
-\centering
+\centering 
 \begin{tabular}{|r|r|r|}
 \hline
 \multicolumn{1}{|l|}{Iwy {[}A{]}} & \multicolumn{1}{l|}{\partial Uwy/ \partial Iwy[\frac{V}{A}]}&
@@ -264,7 +267,7 @@ nagły wzrost rezystancji, który przeciwdziała przekroczeniu zadanego napięci
 \begin{enumerate}
   
 \item Zgodnie z założeniami teoretycznymi układ utrzymuje na swoim wyjściu stałe napięcie równe 11V , w związku z niedokładnością użytych
-  elementów maksymalny prąd wyjściowy różni się od założeń jednak nie jest to duża rozbieżność (około 0.70 A wobec założonych 0.60 A).
+  elementów maksymalny prąd wyjściowy różni się od założeń jednak nie jest to duża rozbieżność (około 0.70 A wobec założonych 0.66 A).
   
 \item Minimalny spadek napięcia pomiędzy wyjściem a wejściem stabilizatora, potrzebny do właściwej stabilizacji napięcia wyjściowego (dropout) dla I\textsubscript{wy}=0 wynosi około 1.5V a dla I\textsubscript{wy}\neq0$ około 2V. Z czego wynika, iż wraz ze wzrostem
   obciążenia dropout również rośnie
