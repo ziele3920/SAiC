@@ -2,3 +2,6 @@
 *~
 $*
 *$
+*.eps
+.~*
+*converted-to*

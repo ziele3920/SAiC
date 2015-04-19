@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  19 APR 2015 12:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  19 APR 2015 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,268 +556,247 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <10> on input line 20.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <7> on input line 20.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 46.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 46.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 46.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 46.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 64.
-
-Missing character: There is no ª in font plmi12!
-
-Overfull \hbox (29.64746pt too wide) detected at line 65
-\OML/plm/m/it/12 Zakadamy []  \OMS/plsy/m/n/12 !  [] \OT4/cmr/m/n/12 = \OML/plm
-/m/it/12 R[][] \OT4/cmr/m/n/12 = 1800[] = []
- []
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 68.
-
-Missing character: There is no ª in font plmi12!
-
-! LaTeX Error: File `schemat_ukladu' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 ...raphics[width=1\textwidth]{schemat_ukladu}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[2]
-
-! LaTeX Error: File `charak-napieciowa1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136 ...width=0.90\textwidth]{charak-napieciowa1}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `charak-napieciowa2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 ...width=0.90\textwidth]{charak-napieciowa2}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.143 ...ript{we}) przu I\textsubscript{wy}\neq0A}
-                                                  
+l.31 ...umn{1}{l}{R\textsubscript{SC}=0.625\Omega}
+                                                  &  \multicolumn{1}{l|}{L=3...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.143 ...ript{we}) przu I\textsubscript{wy}\neq0A}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[3]
-
-! LaTeX Error: File `charak-zew1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 ...aphics[width=0.75\textwidth]{charak-zew1}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `charak-zew2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 ...aphics[width=0.75\textwidth]{charak-zew2}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.174 ...=0 to 12.5V a dla I\textsubscript{wy}\neq
-                                                  0 to 13V.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \item
-            W stabilizatorze kompensacyjnym uÅ¼yto tzw. foldback'u ktÃ³ry je...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \item W
-              stabilizatorze kompensacyjnym uÅ¼yto tzw. foldback'u ktÃ³ry je...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \item W
-              stabilizatorze kompensacyjnym uÅ¼yto tzw. foldback'u ktÃ³ry je...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Command \. invalid in math mode on input line 175.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 175.
-
-
-LaTeX Warning: Command \l invalid in math mode on input line 175.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 175.
-
-
-LaTeX Warning: Command \. invalid in math mode on input line 176.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 176.
-
-
-LaTeX Warning: Command \k invalid in math mode on input line 176.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 176.
-
-
-! LaTeX Error: Command \end{enumerate} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.177 \end{enumerate}
-                     
+l.31 ...umn{1}{l}{R\textsubscript{SC}=0.625\Omega}
+                                                  &  \multicolumn{1}{l|}{L=3...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-Missing character: There is no » in font plmi12!
-Missing character: There is no ó in font plmi12!
-Missing character: There is no ª in font plmi12!
-Missing character: There is no ± in font plmi12!
-Missing character: There is no » in font plmi12!
-Missing character: There is no ± in font plmi12!
-Missing character: There is no ¦ in font plmi12!
-Missing character: There is no ¢ in font plmi12!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...lumn{1}{l}{R\textsubscript{1}=1.795\Omega}
+                                                  &  \multicolumn{1}{l|}{C\t...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Overfull \hbox (492.15985pt too wide) in paragraph at lines 174--178
-\T1/cmr/m/n/12 a dla I$[]$$\OMS/plsy/m/n/12 6\OT4/cmr/m/n/12 = 0\OML/plm/m/it/1
-2 to\OT4/cmr/m/n/12 13\OML/plm/m/it/12 V:Wstabilizatorzekompensacyjnymuytotzw:f
-oldback[]uktryjestbardzodobrymzabezpieczeniemukaduwwypadkupodawanianawejciezbyt
-duychwartocinapi:$ 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...lumn{1}{l}{R\textsubscript{1}=1.795\Omega}
+                                                  &  \multicolumn{1}{l|}{C\t...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...umn{1}{l}{R\textsubscript{2}=6.720k\Omega}
+                                                  &  \multicolumn{1}{l|}{C\t...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...umn{1}{l}{R\textsubscript{2}=6.720k\Omega}
+                                                  &  \multicolumn{1}{l|}{C\t...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 48.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 48.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 48.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 66.
+
+Missing character: There is no ª in font plmi12!
+
+Overfull \hbox (36.20078pt too wide) detected at line 67
+\OML/plm/m/it/12 Zakadamy []  \OMS/plsy/m/n/12 !  [] \OT4/cmr/m/n/12 = \OML/plm
+/m/it/12 R[][] \OT4/cmr/m/n/12 = 1800[] = []
  []
 
-[4] [5] (./Zasilacz.aux) ) 
+
+LaTeX Warning: Command \l invalid in math mode on input line 70.
+
+Missing character: There is no ª in font plmi12!
+[2]
+Package epstopdf Info: Source file: <schemat_sim.eps>
+(epstopdf)                    date: 2015-04-19 13:21:10
+(epstopdf)                    size: 3362327 bytes
+(epstopdf)             Output file: <schemat_sim-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-19 13:41:31
+(epstopdf)                    size: 99028 bytes
+(epstopdf)             Command: <repstopdf --outfile=schemat_sim-eps-converted-
+to.pdf schemat_sim.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+ <schemat_sim-eps-converted-to.pdf, id=29, 908.39375pt x 345.29pt>
+File: schemat_sim-eps-converted-to.pdf Graphic file (type pdf)
+
+<use schemat_sim-eps-converted-to.pdf>
+Package pdftex.def Info: schemat_sim-eps-converted-to.pdf used on input line 85
+.
+(pdftex.def)             Requested size: 272.99881pt x 103.76692pt.
+Package epstopdf Info: Source file: <wyk.eps>
+(epstopdf)                    date: 2015-04-19 13:25:33
+(epstopdf)                    size: 13233474 bytes
+(epstopdf)             Output file: <wyk-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-19 15:02:02
+(epstopdf)                    size: 411970 bytes
+(epstopdf)             Command: <repstopdf --outfile=wyk-eps-converted-to.pdf w
+yk.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<wyk-eps-converted-to.pdf, id=30, 845.1575pt x 598.235pt>
+File: wyk-eps-converted-to.pdf Graphic file (type pdf)
+
+<use wyk-eps-converted-to.pdf>
+Package pdftex.def Info: wyk-eps-converted-to.pdf used on input line 89.
+(pdftex.def)             Requested size: 117.00119pt x 82.8121pt.
+Package epstopdf Info: Source file: <schemat.eps>
+(epstopdf)                    date: 2015-04-19 13:47:20
+(epstopdf)                    size: 5623114 bytes
+(epstopdf)             Output file: <schemat-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-19 13:47:31
+(epstopdf)                    size: 92271 bytes
+(epstopdf)             Command: <repstopdf --outfile=schemat-eps-converted-to.p
+df schemat.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+
+<schemat-eps-converted-to.pdf, id=31, 1484.54625pt x 627.34375pt>
+File: schemat-eps-converted-to.pdf Graphic file (type pdf)
+
+<use schemat-eps-converted-to.pdf>
+Package pdftex.def Info: schemat-eps-converted-to.pdf used on input line 93.
+(pdftex.def)             Requested size: 272.99881pt x 115.35797pt.
+ [3 <./schemat_sim-eps-converted-to.pdf> <./wyk-eps-converted-to.pdf> <./schema
+t-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Uwe_Uwy.eps>
+(epstopdf)                    date: 2015-04-19 12:48:48
+(epstopdf)                    size: 69076 bytes
+(epstopdf)             Output file: <Uwe_Uwy-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-19 13:50:38
+(epstopdf)                    size: 36929 bytes
+(epstopdf)             Command: <repstopdf --outfile=Uwe_Uwy-eps-converted-to.p
+df Uwe_Uwy.eps>
+(epstopdf)             \includegraphics on input line 149.
+Package epstopdf Info: Output file is already uptodate.
+
+<Uwe_Uwy-eps-converted-to.pdf, id=44, 536.0025pt x 295.1025pt>
+File: Uwe_Uwy-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Uwe_Uwy-eps-converted-to.pdf>
+Package pdftex.def Info: Uwe_Uwy-eps-converted-to.pdf used on input line 149.
+(pdftex.def)             Requested size: 331.50238pt x 182.51135pt.
+Package epstopdf Info: Source file: <Uwy_Iwy.eps>
+(epstopdf)                    date: 2015-04-19 12:49:45
+(epstopdf)                    size: 83342 bytes
+(epstopdf)             Output file: <Uwy_Iwy-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-19 14:03:32
+(epstopdf)                    size: 43852 bytes
+(epstopdf)             Command: <repstopdf --outfile=Uwy_Iwy-eps-converted-to.p
+df Uwy_Iwy.eps>
+(epstopdf)             \includegraphics on input line 157.
+Package epstopdf Info: Output file is already uptodate.
+
+<Uwy_Iwy-eps-converted-to.pdf, id=45, 529.98pt x 287.0725pt>
+File: Uwy_Iwy-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Uwy_Iwy-eps-converted-to.pdf>
+Package pdftex.def Info: Uwy_Iwy-eps-converted-to.pdf used on input line 157.
+(pdftex.def)             Requested size: 331.50238pt x 179.5644pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+
+Overfull \vbox (5.40852pt too high) has occurred while \output is active []
+
+
+[5 <./Uwe_Uwy-eps-converted-to.pdf> <./Uwy_Iwy-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <spr_Iwy.eps>
+(epstopdf)                    date: 2015-04-19 14:46:54
+(epstopdf)                    size: 138182 bytes
+(epstopdf)             Output file: <spr_Iwy-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-19 14:52:16
+(epstopdf)                    size: 71378 bytes
+(epstopdf)             Command: <repstopdf --outfile=spr_Iwy-eps-converted-to.p
+df spr_Iwy.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<spr_Iwy-eps-converted-to.pdf, id=57, 527.9725pt x 264.99pt>
+File: spr_Iwy-eps-converted-to.pdf Graphic file (type pdf)
+
+<use spr_Iwy-eps-converted-to.pdf>
+Package pdftex.def Info: spr_Iwy-eps-converted-to.pdf used on input line 169.
+(pdftex.def)             Requested size: 331.50238pt x 166.3785pt.
+ [6 <./spr_Iwy-eps-converted-to.pdf>]
+(./Zasilacz.aux) ) 
 Here is how much of TeX's memory you used:
- 3920 strings out of 493304
- 51341 string characters out of 6139871
+ 3933 strings out of 493304
+ 52067 string characters out of 6139871
  135233 words of memory out of 5000000
- 7266 multiletter control sequences out of 15000+600000
+ 7290 multiletter control sequences out of 15000+600000
  22739 words of font info for 51 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  41i,16n,35p,296b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t
-1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/te
-xlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/share/texlive/texmf-dist/fon
-ts/enc/dvips/pl/plmi.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/pl/plr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-bx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
-2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Zasilacz.pdf (5 pages, 257677 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/te
+xmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
+vips/pl/plmi.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/pl/plbx8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/p
+l/plr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfti1440.pfb>
+Output written on Zasilacz.pdf (6 pages, 1004696 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
