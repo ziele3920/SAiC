@@ -88,39 +88,47 @@ Zakładamy \quad \mathbf{T=25u}s \quad \to \quad \mathbf{t_{on}}=T\frac{U_0}{U_i
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CZĘŚĆ LABORATORYJNA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Część laboratoryjna}
-\subsection{Charakterystyki napięciowe}
-TUTAJ BRAKUJE 2 tabeli ale nie wiem czy mogę tak bezczelnie uwalić część danych :p >>DO SKONSULTOWANIA<<
+\subsection{Charakterystyka napięciowa i napięciowo - prądowa}
 \begin{table}[ht]
   \centering
-  \begin{tabular}{|r|r|}
+  \begin{tabular}{|r|r|r|r|r|r|r|}
     \hline
-    \multicolumn{1}{|c|}{\textbf{U1{[}V{]}}} & \multicolumn{1}{c|}{\textbf{U2\_1 {[}V{]}}} \\ \hline
-    0                                        & 0                                           \\ \hline
-    2                                        & 0.2862                                      \\ \hline
-    5                                        & 4.0874                                      \\ \hline
-    5.5                                      & 4.561                                       \\ \hline
-    8                                        & 6.988                                       \\ \hline
-    8.5                                      & 7.457                                       \\ \hline
-    9                                        & 7.874                                       \\ \hline
-    10.1                                     & 8.916                                       \\ \hline
-    10.5                                     & 9.32                                        \\ \hline
-    11                                       & 9.87                                        \\ \hline
-    11.5                                     & 10.35                                       \\ \hline
-    12                                       & 10.784                                      \\ \hline
-    12.5                                     & 10.992                                      \\ \hline
-    13                                       & 10.994                                      \\ \hline
-    13.5                                     & 10.994                                      \\ \hline
-    14                                       & 10.995                                      \\ \hline
-    14.5                                     & 10.995                                      \\ \hline
-    15                                       & 10.995                                      \\ \hline
-    17                                       & 10.999                                      \\ \hline
-    19                                       & 11                                          \\ \hline
-    20                                       & 11.002                                      \\ \hline
-    25                                       & 11.007                                      \\ \hline
-    30                                       & 11.014                                      \\ \hline
+    \multicolumn{2}{|c|}{\textbf{Stałe obciążenie}} &  & \multicolumn{4}{c|}{\textbf{Zmienne obciążenie}} \\ \cline{1-2} \cline{4-7}
+    \textbf{$U_{we}[V]$} & \textbf{$U_{wy}[V]$} & & \textbf{$U_{we}[V]$} & \textbf{$I_{we}[mA]$} & \textbf{$U_{wy}[V]$} & \textbf{$I_{wy}[mA]$} \\ \cline{1-2} \cline{4-7}
+    0		& 0	&	& 9	& 25.82		& 6.197		& 27.91 \\ \cline{1-2} \cline{4-7}
+    0.5		& 0.001 &	& 9 	& 36.87		& 6.192		& 41.32 \\ \cline{1-2} \cline{4-7}
+    0.9		& 0.010	&	& 9	& 44.92		& 6.191		& 51.02	\\ \cline{1-2} \cline{4-7}
+    1.5		& 0.200	&	& 9 	& 66.82		& 6.188		& 77.11 \\ \cline{1-2} \cline{4-7}
+    2.0		& 0.586	&	& 9	& 93.56		& 6.184		& 108.47 \\ \cline{1-2} \cline{4-7}
+    2.5		& 0.940 &	& 9	& 134.13	& 6.178		& 154.98 \\ \cline{1-2} \cline{4-7}
+    3.0		& 1.340 &	& 9	& 168.09	& 6.126		& 195.13 \\ \cline{1-2} \cline{4-7}
+    3.5		& 1.750 &	& 9	& 228.10	& 5.840		& 269.77 \\ \cline{1-2} \cline{4-7}
+    4.0		& 2.170	&	& 9	& 269.00	& 5.518		& 330.00 \\ \cline{1-2} \cline{4-7}
+    4.5		& 2.570	&	& 9	& 300.50	& 4.791		& 408.50 \\ \cline{1-2} \cline{4-7}
+    5.0		& 3.040 &	& 9	& 270.70	& 3.808		& 445.30 \\ \cline{1-2} \cline{4-7}
+    5.5		& 3.480 &	& 9	& 250.80	& 3.331		& 464.80 \\ \cline{1-2} \cline{4-7}
+    6.0		& 3.860	&	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    6.5		& 4.320	&	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    7.0		& 4.670	&	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    7.5		& 5.120 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    8.0		& 5.500	&	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    8.5		& 6.940	&	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    9.0		& 6.180 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    9.5		& 6.180	&	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    10.0	& 6.190 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    10.5	& 6.190	&	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    11.0	& 6.192 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    11.5	& 6.192 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    12.0	& 6.194 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    12.5	& 6.194 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    13.0	& 6.196 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    13.5	& 6.196 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    14.0	& 6.199 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    14.5	& 6.208 &	& \multicolumn{4}{c|}{} \\ \cline{1-2} 
+    15.0	& 6.206 &	& \multicolumn{4}{c|}{} \\ \hline
   \end{tabular}
 \end{table}
-\pagebreak
+%\pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[h!]
@@ -163,7 +171,7 @@ wzrostu napięcia wejściowego.
 \begin{enumerate}  
 \item Zgodnie z założeniami teoretycznymi układ utrzymuje na swoim wyjściu stałe napięcie równe 11V , w związku z niedokładnością użytych
   elementów maksymalny prąd wyjściowy różni się od założeń jednak nie jest to duża rozbieżność (około 0.70 A wobec założonych 0.60 A).
-\item Minimalne napięcie dla jakiego układ pracuje poprawnie przy I\textsubscript{wy}=0 to 12.5V a dla I\textsubscript{wy}\neq0$ to 13V.
+\item Minimalne napięcie dla jakiego układ pracuje poprawnie przy I\textsubscript{wy}=0 to 12.5V a dla I\textsubscript{wy}\neq0 to 13V.
 \item W stabilizatorze kompensacyjnym użyto tzw. foldback'u który jest bardzo dobrym zabezpieczeniem układu w wypadku podawania na wejście zbyt
   dużych wartości napięć.
 \end{enumerate}
