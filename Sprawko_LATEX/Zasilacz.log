@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  19 APR 2015 16:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  19 APR 2015 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,22 +664,22 @@ Package pdftex.def Info: schemat_sim-eps-converted-to.pdf used on input line 85
 .
 (pdftex.def)             Requested size: 272.99881pt x 103.76692pt.
 Package epstopdf Info: Source file: <wyk.eps>
-(epstopdf)                    date: 2015-04-19 13:25:33
-(epstopdf)                    size: 13233474 bytes
+(epstopdf)                    date: 2015-04-19 21:52:43
+(epstopdf)                    size: 4276386 bytes
 (epstopdf)             Output file: <wyk-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-19 15:02:02
-(epstopdf)                    size: 411970 bytes
+(epstopdf)                    date: 2015-04-19 21:53:24
+(epstopdf)                    size: 167393 bytes
 (epstopdf)             Command: <repstopdf --outfile=wyk-eps-converted-to.pdf w
 yk.eps>
-(epstopdf)             \includegraphics on input line 89.
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<wyk-eps-converted-to.pdf, id=30, 845.1575pt x 598.235pt>
+<wyk-eps-converted-to.pdf, id=30, 857.2025pt x 464.73625pt>
 File: wyk-eps-converted-to.pdf Graphic file (type pdf)
 
 <use wyk-eps-converted-to.pdf>
-Package pdftex.def Info: wyk-eps-converted-to.pdf used on input line 89.
-(pdftex.def)             Requested size: 117.00119pt x 82.8121pt.
+Package pdftex.def Info: wyk-eps-converted-to.pdf used on input line 90.
+(pdftex.def)             Requested size: 214.50119pt x 116.29015pt.
 Package epstopdf Info: Source file: <schemat.eps>
 (epstopdf)                    date: 2015-04-19 13:47:20
 (epstopdf)                    size: 5623114 bytes
@@ -688,15 +688,15 @@ Package epstopdf Info: Source file: <schemat.eps>
 (epstopdf)                    size: 92271 bytes
 (epstopdf)             Command: <repstopdf --outfile=schemat-eps-converted-to.p
 df schemat.eps>
-(epstopdf)             \includegraphics on input line 93.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
 <schemat-eps-converted-to.pdf, id=31, 1484.54625pt x 627.34375pt>
 File: schemat-eps-converted-to.pdf Graphic file (type pdf)
 
 <use schemat-eps-converted-to.pdf>
-Package pdftex.def Info: schemat-eps-converted-to.pdf used on input line 93.
-(pdftex.def)             Requested size: 272.99881pt x 115.35797pt.
+Package pdftex.def Info: schemat-eps-converted-to.pdf used on input line 94.
+(pdftex.def)             Requested size: 292.5pt x 123.59988pt.
  [3 <./schemat_sim-eps-converted-to.pdf> <./wyk-eps-converted-to.pdf> <./schema
 t-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Uwe_Uwy.eps>
@@ -707,14 +707,14 @@ Package epstopdf Info: Source file: <Uwe_Uwy.eps>
 (epstopdf)                    size: 36929 bytes
 (epstopdf)             Command: <repstopdf --outfile=Uwe_Uwy-eps-converted-to.p
 df Uwe_Uwy.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 150.
 Package epstopdf Info: Output file is already uptodate.
 
 <Uwe_Uwy-eps-converted-to.pdf, id=44, 536.0025pt x 295.1025pt>
 File: Uwe_Uwy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Uwe_Uwy-eps-converted-to.pdf>
-Package pdftex.def Info: Uwe_Uwy-eps-converted-to.pdf used on input line 149.
+Package pdftex.def Info: Uwe_Uwy-eps-converted-to.pdf used on input line 150.
 (pdftex.def)             Requested size: 331.50238pt x 182.51135pt.
 Package epstopdf Info: Source file: <Uwy_Iwy.eps>
 (epstopdf)                    date: 2015-04-19 12:49:45
@@ -724,14 +724,14 @@ Package epstopdf Info: Source file: <Uwy_Iwy.eps>
 (epstopdf)                    size: 43852 bytes
 (epstopdf)             Command: <repstopdf --outfile=Uwy_Iwy-eps-converted-to.p
 df Uwy_Iwy.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
 <Uwy_Iwy-eps-converted-to.pdf, id=45, 529.98pt x 287.0725pt>
 File: Uwy_Iwy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Uwy_Iwy-eps-converted-to.pdf>
-Package pdftex.def Info: Uwy_Iwy-eps-converted-to.pdf used on input line 157.
+Package pdftex.def Info: Uwy_Iwy-eps-converted-to.pdf used on input line 158.
 (pdftex.def)             Requested size: 331.50238pt x 179.5644pt.
 
 
@@ -754,14 +754,14 @@ Package epstopdf Info: Source file: <spr_Iwy.eps>
 (epstopdf)                    size: 71378 bytes
 (epstopdf)             Command: <repstopdf --outfile=spr_Iwy-eps-converted-to.p
 df spr_Iwy.eps>
-(epstopdf)             \includegraphics on input line 169.
+(epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
 <spr_Iwy-eps-converted-to.pdf, id=57, 527.9725pt x 264.99pt>
 File: spr_Iwy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use spr_Iwy-eps-converted-to.pdf>
-Package pdftex.def Info: spr_Iwy-eps-converted-to.pdf used on input line 169.
+Package pdftex.def Info: spr_Iwy-eps-converted-to.pdf used on input line 170.
 (pdftex.def)             Requested size: 331.50238pt x 166.3785pt.
  [6 <./spr_Iwy-eps-converted-to.pdf>]
 (./Zasilacz.aux) ) 
@@ -793,7 +793,7 @@ fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfti1440.pfb>
-Output written on Zasilacz.pdf (6 pages, 1004696 bytes).
+Output written on Zasilacz.pdf (6 pages, 760052 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
