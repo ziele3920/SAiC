@@ -1,0 +1,18 @@
+.ALIASES
+C_C3            C3(1=0 2=N12428 )
+C_C2            C2(1=0 2=N09334 )
+Q_Q1            Q1(c=N10683 b=N10852 e=0 )
+C_C4            C4(1=0 2=N09334 )
+C_C5            C5(1=N12179 2=N10852 )
+R_R4            R4(1=N09334 2=N12179 )
+R_Rb            Rb(1=N10683 2=N09604 )
+R_Ra            Ra(1=N09604 2=N09334 )
+R_R3            R3(1=N10005 2=N09334 )
+V_V3            V3(+=N09334 -=0 )
+D_D1            D1(1=N10852 2=0 )
+C_C             C(1=0 2=N12226 )
+R_R2            R2(1=0 2=N10852 )
+X_U1            U1(GND=0 TRIGGER=N10005 OUTPUT=OUTPUT RESET=N09334 CONTROL=N12428 THRESHOLD=N09604 DISCHARGE=N12226 VCC=N09334 )
+_    _(INPUT=0)
+_    _(OUTPUT=OUTPUT)
+.ENDALIASES
