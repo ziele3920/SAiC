@@ -35,12 +35,16 @@
       (FullPartName "VDC.Normal")
       (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
       (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
@@ -57,10 +61,6 @@
     (555B
       (FullPartName "555B.Normal")
       (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANL_MISC.OLB")
-      (DeviceIndex "0"))
-    (VPULSE
-      (FullPartName "VPULSE.Normal")
-      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (D1N5818
       (FullPartName "D1N5818.Normal")
@@ -91,9 +91,9 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 895 50 474")
-        (Scroll "512 313")
-        (Zoom "156")
+        (Scroll "345 480")
+        (Zoom "169")
         (Occurrence "/"))
-      (Path "C:\USERS\WINDA\DESKTOP\SAIC\SAIC\SIM\ZAS.DSN")
+      (Path "C:\USERS\WINDA\DESKTOP\SAIC\SIM\ZAS.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
