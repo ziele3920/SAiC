@@ -23,16 +23,16 @@
   \centering
   \begin{tabular}{|ll|l|}
     \hline
-    \multicolumn{1}{|l|}{Data: 7.04.2015r}                & \multicolumn{2}{l|}{Dzień: Wtorek}                                     \\ \hline
-    \multicolumn{1}{|l|}{Grupa: VII}                      & \multicolumn{2}{l|}{Godzina: 12:15-15:00}                               \\ \hline
+    \multicolumn{1}{|l|}{Data: 7.04.2015r}                & \multicolumn{2}{l|}{Dzień: Wtorek}                                         \\ \hline
+    \multicolumn{1}{|l|}{Grupa: VII}                      & \multicolumn{2}{l|}{Godzina: 12:15-15:00}                                  \\ \hline
     \multicolumn{3}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}\textbf{Temat ćwiczenia:} \\ Liniowe stabilizatory napięcia\end{tabular}}} \\ \hline
-    \textbf{Dane projektowe:}                             & \multicolumn{2}{l|}{}                                                   \\
-    T=0.35 \mu s                                          & \multicolumn{2}{l|}{}                                                    \\
-    C=X \mu s                                          & \multicolumn{2}{l|}{}                                              \\
-    R\textsubscript{a}=Y k\Omega}                          & \multicolumn{2}{l|}{}                                                      \\ \hline
-    \multicolumn{1}{|l|}{\textbf{l.p}}                    & \textbf{Nazwisko i imię}                 & \textbf{Oceny}               \\ \hline
-    \multicolumn{1}{|l|}{1}                               & Arkadiusz Ziółkowski                     &                               \\ \hline
-    \multicolumn{1}{|l|}{2}                               & Jakub Koban                              &                                \\ \hline
+    \textbf{Dane projektowe:}                             & \multicolumn{2}{l|}{}                                                      \\
+    T=0.35 \mu s                                          & \multicolumn{2}{l|}{}                                                      \\
+    C=47 nF                                               & \multicolumn{2}{l|}{}                                                      \\
+    R\textsubscript{a}=680 \Omega                         & \multicolumn{2}{l|}{}                                                      \\ \hline
+    \multicolumn{1}{|l|}{\textbf{l.p}}                    & \textbf{Nazwisko i imię}                 & \textbf{Oceny}                  \\ \hline
+    \multicolumn{1}{|l|}{1}                               & Arkadiusz Ziółkowski                     &                                 \\ \hline
+    \multicolumn{1}{|l|}{2}                               & Jakub Koban                              &                                 \\ \hline
   \end{tabular}
 \end{table}
 
@@ -47,11 +47,9 @@ Zaprojektować przerzutnik monostabilny w oparciu o układ scalony ``555'' dla T
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CZĘŚĆ PROJEKTOWA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Obliczenia projektowe}
-
 \begin{equation}
-  T=R_A\cdot C\cdot ln\left(\frac{V_{CC}}{V_{CC}-\frac{2}{3}V_{CC}}\right)\approx 1.1\cdot R_A\cdot C=1.1 
+  T=R_A\cdot C\cdot ln\left(\frac{V_{CC}}{V_{CC}-\frac{2}{3}V_{CC}}\right)\approx 1.1\cdot R_A\cdot C=1.1\cdot680\Omega\cdot 47nF  = 35.156\mu s
 \end{equation}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section {Schemat projektowy}
 \begin{figure}[h]
