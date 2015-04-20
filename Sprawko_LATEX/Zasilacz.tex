@@ -55,23 +55,23 @@ Zaprojektować zasilacz stabilizowany obniżający napięcie o zadanych parametr
 \section{Obliczenia projektowe}
 
 \begin{equation}
-I_{pk}=I_{Lpk}=2I_{max}=2*0.25=0.5 A
+  I_{pk}=I_{Lpk}=2I_{max}=2*0.25=0.5 A
 \end{equation}
 
 \begin{equation}
-\mathbf{R_{SC}}=\frac{0.3V}{I_{pk}}=\frac{0.3}{0.5}=\mathbf{0.6 \Omega}
+  \mathbf{R_{SC}}=\frac{0.3V}{I_{pk}}=\frac{0.3}{0.5}=\mathbf{0.6 \Omega}
 \end{equation}
 
 \begin{equation}
-Zakładamy \quad \mathbf{R_1=1.8k\Omega}   \quad \to \quad   \mathbf{R_2}=R_1 \frac {|U_{wy}|-1.25V}{1.25V} = 1800\frac{6-1.25}{1.25}= \mathbf{6.8k \Omega}
+  Zakładamy \quad \mathbf{R_1=1.8k\Omega}   \quad \to \quad   \mathbf{R_2}=R_1 \frac {|U_{wy}|-1.25V}{1.25V} = 1800\frac{6-1.25}{1.25}= \mathbf{6.8k \Omega}
 \end{equation}
 
 \begin{equation}
-Zakładamy \quad \mathbf{T=25u}s \quad \to \quad \mathbf{t_{on}}=T\frac{U_0}{U_i}=25*10^{-6}\frac{6}{9}=\mathbf{16.67us}
+  Zakładamy \quad \mathbf{T=25u}s \quad \to \quad \mathbf{t_{on}}=T\frac{U_0}{U_i}=25*10^{-6}\frac{6}{9}=\mathbf{16.67us}
 \end{equation}
 
 \begin{equation}
-\mathbf{L}\geq\frac{U_i}{I_{Lpk}}t_{ON}=\frac{9}{0.5}*16.37*10^{-6}=\mathbf{300uH}
+  \mathbf{L}\geq\frac{U_i}{I_{Lpk}}t_{ON}=\frac{9}{0.5}*16.37*10^{-6}=\mathbf{300uH}
 \end{equation}
 
 \begin{equation}
@@ -80,102 +80,105 @@ Zakładamy \quad \mathbf{T=25u}s \quad \to \quad \mathbf{t_{on}}=T\frac{U_0}{U_i
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section {Schemat projektowy}
-\begin{figure}[h]
+\begin{figure}[h] 
   \center
-  \includegraphics[width=0.7\textwidth]{schemat_sim.eps}
-
+  \includegraphics[width=0.6\textwidth]{schemat_sim.eps}
   \caption{Schemat do symulacji projektowanego układu}
-
+\end{figure}
+\begin{figure}[h]
   \center
   \includegraphics[width=0.55\textwidth]{wyk.eps}
   \caption{Symulacja - napięcie wyjściowe od czasu}
-
+\end{figure}
+\begin{figure}[h]
   \center
-  \includegraphics[width=0.75\textwidth]{schemat.eps}
+  \includegraphics[width=0.69\textwidth]{schemat.eps}
   \caption{Schemat projektowanego układu}
 \end{figure}
-
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CZĘŚĆ LABORATORYJNA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Część laboratoryjna}
 \subsection{Charakterystyka napięciowa i napięciowo - prądowa}
-%\begin{table}[ht]
-  \begin{center}
-  \begin{tabular}{|r|r|r|r|r|r|r|r|}
-    \hline
-    \multicolumn{2}{|c|}{\textbf{Stałe obciążenie}} &  & \multicolumn{5}{c|}{\textbf{Zmienne obciążenie}} \\ \cline{1-2} \cline{4-8}
-    \textbf{$U_{we}[V]$} & \textbf{$U_{wy}[V]$} & & \textbf{$U_{we}[V]$} & \textbf{$I_{we}[mA]$} & \textbf{$U_{wy}[V]$} & \textbf{$I_{wy}[mA]$} &\textbf{$\eta $ } \\ \cline{1-2} \cline{4-8}
-    0		& 0	&	& 9	& 25.82		& 6.197		& 27.91		& 0.74  \\ \cline{1-2} \cline{4-8}
-    0.5		& 0.001 &	& 9 	& 36.87		& 6.192		& 41.32		& 0.77 \\ \cline{1-2} \cline{4-8}
-    0.9		& 0.010	&	& 9	& 44.92		& 6.191		& 51.02		& 0.78	\\ \cline{1-2} \cline{4-8}
-    1.5		& 0.200	&	& 9 	& 66.82		& 6.188		& 77.11		& 0.79 \\ \cline{1-2} \cline{4-8}
-    2.0		& 0.586	&	& 9	& 93.56		& 6.184		& 108.47	& 0.80 \\ \cline{1-2} \cline{4-8}
-    2.5		& 0.940 &	& 9	& 134.13	& 6.178		& 154.98	& 0.79 \\ \cline{1-2} \cline{4-8}
-    3.0		& 1.340 &	& 9	& 168.09	& 6.126		& 195.13	& 0.79 \\ \cline{1-2} \cline{4-8}
-    3.5		& 1.750 &	& 9	& 228.10	& 5.840		& 269.77	& 0.77 \\ \cline{1-2} \cline{4-8}
-    4.0		& 2.170	&	& 9	& 269.00	& 5.518		& 330.00	& 0.75 \\ \cline{1-2} \cline{4-8}
-    4.5		& 2.570	&	& 9	& 300.50	& 4.791		& 408.50	& 0.72 \\ \cline{1-2} \cline{4-8}
-    5.0		& 3.040 &	& 9	& 270.70	& 3.808		& 445.30 	& 0.70 \\ \cline{1-2} \cline{4-8}
-    5.5		& 3.480 &	& 9	& 250.80	& 3.331		& 464.80 	& 0.69 \\ \cline{1-2} \cline{4-8}
-    6.0		& 3.860	&	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    6.5		& 4.320	&	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    7.0		& 4.670	&	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    7.5		& 5.120 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    8.0		& 5.500	&	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    8.5		& 6.140	&	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    9.0		& 6.180 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    9.5		& 6.180	&	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    10.0	& 6.190 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    10.5	& 6.190	&	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    11.0	& 6.192 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    11.5	& 6.192 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    12.0	& 6.194 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    12.5	& 6.194 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    13.0	& 6.196 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    13.5	& 6.196 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    14.0	& 6.199 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    14.5	& 6.208 &	& \multicolumn{5}{c|}{} \\ \cline{1-2} 
-    15.0	& 6.206 &	& \multicolumn{5}{c|}{} \\ \hline
-  \end{tabular}
-  \end{center}
-  
-%\end{table}
-%\pagebreak
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|r|r|rcrrrr}
+\cline{1-2} \cline{4-8}
+\multicolumn{2}{|c|}{Stałe obciążenie}          & \multicolumn{1}{r|}{\multirow{}{}{}} & \multicolumn{5}{c|}{Zmienne obciążenie}                                                                                                                                                                                            \\ \cline{1-2} \cline{4-8} 
+\textbf\{$U_{we}[V]$\} & \textbf\{$U_{wy}[V]$\} & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{\textbf\{$U_{we}[V]$\}} & \multicolumn{1}{r|}{\textbf\{$I_{we}[mA]$\}} & \multicolumn{1}{r|}{\$U_{wy}[V]$} & \multicolumn{1}{r|}{\textbf{$I_{wy}[mA]$}} & \multicolumn{1}{r|}{\textbf{$\eta $ }} \\ \cline{1-2} \cline{4-8} 
+0                      & 0                      & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{25.82}                   & \multicolumn{1}{r|}{6.197}                  & \multicolumn{1}{r|}{27.91}                   & \multicolumn{1}{r|}{0.74}                \\ \cline{1-2} \cline{4-8} 
+0.5                    & 0.001                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{36.87}                   & \multicolumn{1}{r|}{6.192}                  & \multicolumn{1}{r|}{41.32}                   & \multicolumn{1}{r|}{0.77}                \\ \cline{1-2} \cline{4-8} 
+0.9                    & 0.010                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{44.92}                   & \multicolumn{1}{r|}{6.191}                  & \multicolumn{1}{r|}{51.02}                   & \multicolumn{1}{r|}{0.78}                \\ \cline{1-2} \cline{4-8} 
+1.5                    & 0.200                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{66.82}                   & \multicolumn{1}{r|}{6.188}                  & \multicolumn{1}{r|}{77.11}                   & \multicolumn{1}{r|}{0.79}                \\ \cline{1-2} \cline{4-8} 
+2.0                    & 0.586                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{93.56}                   & \multicolumn{1}{r|}{6.184}                  & \multicolumn{1}{r|}{108.47}                  & \multicolumn{1}{r|}{0.80}                \\ \cline{1-2} \cline{4-8} 
+2.5                    & 0.940                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{134.13}                  & \multicolumn{1}{r|}{6.178}                  & \multicolumn{1}{r|}{154.98}                  & \multicolumn{1}{r|}{0.79}                \\ \cline{1-2} \cline{4-8} 
+3.0                    & 1.340                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{168.09}                  & \multicolumn{1}{r|}{6.126}                  & \multicolumn{1}{r|}{195.13}                  & \multicolumn{1}{r|}{0.79}                \\ \cline{1-2} \cline{4-8} 
+3.5                    & 1.750                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{228.10}                  & \multicolumn{1}{r|}{5.840}                  & \multicolumn{1}{r|}{269.77}                  & \multicolumn{1}{r|}{0.77}                \\ \cline{1-2} \cline{4-8} 
+4.0                    & 2.170                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{269.00}                  & \multicolumn{1}{r|}{5.518}                  & \multicolumn{1}{r|}{330.00}                  & \multicolumn{1}{r|}{0.75}                \\ \cline{1-2} \cline{4-8} 
+4.5                    & 2.570                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{300.50}                  & \multicolumn{1}{r|}{4.791}                  & \multicolumn{1}{r|}{408.50}                  & \multicolumn{1}{r|}{0.72}                \\ \cline{1-2} \cline{4-8} 
+5.0                    & 3.040                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{270.70}                  & \multicolumn{1}{r|}{3.808}                  & \multicolumn{1}{r|}{445.30}                  & \multicolumn{1}{r|}{0.70}                \\ \cline{1-2} \cline{4-8} 
+5.5                    & 3.480                  & \multicolumn{1}{r|}{}                   & \multicolumn{1}{r|}{9}                      & \multicolumn{1}{r|}{250.80}                  & \multicolumn{1}{r|}{3.331}                  & \multicolumn{1}{r|}{464.80}                  & \multicolumn{1}{r|}{0.69}                \\ \cline{1-2} \cline{4-8} 
+6.0                    & 3.860                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{\multirow{}{}{}}                                                                                                                                                                                              \\ \cline{1-2}
+6.5                    & 4.320                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+7.0                    & 4.670                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+7.5                    & 5.120                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+8.0                    & 5.500                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+8.5                    & 6.140                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+9.0                    & 6.180                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+9.5                    & 6.180                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+10.0                   & 6.190                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+10.5                   & 6.190                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+11.0                   & 6.192                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+11.5                   & 6.192                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+12.0                   & 6.194                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+12.5                   & 6.194                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+13.0                   & 6.196                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+13.5                   & 6.196                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+14.0                   & 6.199                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+14.5                   & 6.208                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+15.0                   & 6.206                  & \multicolumn{1}{r}{}                   & \multicolumn{5}{c}{}                                                                                                                                                                                                               \\ \cline{1-2}
+\end{tabular}
+}
+\end{table}
 
+\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h!]
-  \begin{center}
+  \center
   \includegraphics[width=0.85\textwidth]{Uwe_Uwy.eps}
   \caption{Charakterystyka napięcia wyjściowego od napięcia wejściowego przy stałym obciążeniu}
-  \end{center}
-
-Na powyższjej charakterystyce widzimy, że zasilacz poprawnie stabilizuje napięcie wyjściowe na zadanym poziomie
-dla napięcia wejściowego mieszczącego się w przedziale od 8.5V do 15V.
-
-  \begin{center}
-  \includegraphics[width=0.85\textwidth]{Uwy_Iwy.eps}
-  \caption{Charakterystyka natężenia prądu wyjściowego od napięcia wyjściowego przy zmiennym obciążeniu}
-  \end{center}
-
-Z powyższego wykresu widzimy, iż przy natężeniu prądu wyjściowego przekraczającemu wartość ok 225 mA 
-napięcie na wyjściu zasilacza spada poniżej 6V.
 \end{figure}
+
+%Na powyższjej charakterystyce widzimy, że zasilacz poprawnie stabilizuje napięcie wyjściowe na zadanym poziomie
+%dla napięcia wejściowego mieszczącego się w przedziale od 8.5V do 15V.
+
+\begin{figure}[h!]
+\center
+\includegraphics[width=0.85\textwidth]{Uwy_Iwy.eps}
+\caption{Charakterystyka natężenia prądu wyjściowego od napięcia wyjściowego przy zmiennym obciążeniu}
+\end{figure}
+
+%Z powyższego wykresu widzimy, iż przy natężeniu prądu wyjściowego przekraczającemu wartość ok 225 mA 
+%napięcie na wyjściu zasilacza spada poniżej 6V.
+
 
 \pagebreak
 
 \begin{figure}[h!]
-  \begin{center}
+  \center
   \includegraphics[width=0.85\textwidth]{spr_Iwy.eps}
   \caption{Wykres sprawności od natężenia prądu wyjściowego}
-  \end{center}
+  \end{figure}
   
-  Tutaj możemy zauważyć, że sprawność zasilacza w warunkach pracy tj. dla natężenia prądu wyjściowego w zakresie od
-kilkudziesięciu mili amperów do około 250mA utrzymuje się na poziomie powyżej 0.74, gdzie maksimum osiąga 
-dla ok. 100mA natężenia prądu wyjściowego i wynosi około 0.79.
-Warto też dodać, iż dla niskich natężeń prądu wyjściowego zmiany sprawności są bardzo szybkie.
-\end{figure}
+%  Tutaj możemy zauważyć, że sprawność zasilacza w warunkach pracy tj. dla natężenia prądu wyjściowego w zakresie od
+%kilkudziesięciu mili amperów do około 250mA utrzymuje się na poziomie powyżej 0.74, gdzie maksimum osiąga 
+%dla ok. 100mA natężenia prądu wyjściowego i wynosi około 0.79.
+%Warto też dodać, iż dla niskich natężeń prądu wyjściowego zmiany sprawności są bardzo szybkie.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
