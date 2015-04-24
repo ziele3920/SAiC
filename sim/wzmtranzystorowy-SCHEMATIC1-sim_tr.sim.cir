@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\tr\wzmtranzystorowy-schematic1-sim_tr.sim ] 
+
+** Creating circuit file "wzmtranzystorowy-schematic1-sim_tr.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 40 400000k
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\wzmtranzystorowy-SCHEMATIC1.net" 
+
+
+.END

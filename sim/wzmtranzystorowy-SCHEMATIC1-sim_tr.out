@@ -1,0 +1,127 @@
+
+**** 04/24/15 13:22:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\tr\wzmtranzystorowy-schematic1-sim_tr.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "wzmtranzystorowy-schematic1-sim_tr.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 40 400000k
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\wzmtranzystorowy-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING wzmtranzystorowy-SCHEMATIC1.net ****
+* source WZMTRANZYSTOROWY
+C_CE         0 N00605  100u  
+C_C2         OUT N00684  3u  
+R_Rg         IN N01464  1.2k  
+V_Vcc         N00528 0 9Vdc
+R_RB1         N00448 N00528  33k  
+R_RB2         0 N00448  62k  
+R_RC         N00684 N00528  1.5k  
+R_RE         0 N00605  560  
+Q_Q2         N00684 N00448 N00605 BC107B 
+V_V2         N01464 0 DC 0Vdc AC 0.01Vac 
+R_Rw         0 OUT  1.6k  
+C_C1         IN N00448  3u  
+
+**** RESUMING wzmtranzystorowy-schematic1-sim_tr.sim.cir ****
+.END
+
+**** 04/24/15 13:22:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\tr\wzmtranzystorowy-schematic1-sim_tr.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC107B          
+               NPN             
+          IS    7.049000E-15 
+          BF  381.7          
+          NF    1            
+         VAF   59.59         
+         IKF    3.289        
+         ISE   59.740000E-15 
+          NE    1.522        
+          BR    2.359        
+          NR    1            
+         IKR    7.807        
+         ISC  192.900000E-12 
+          NC    1.954        
+          RC    1.427        
+         CJE   11.500000E-12 
+         VJE     .5          
+         MJE     .2718       
+         CJC    5.380000E-12 
+         VJC     .6218       
+         MJC     .329        
+          TF  438.000000E-12 
+         XTF   14.51         
+         VTF   10            
+         ITF    5.716        
+          TR   10.000000E-09 
+         XTB    1.5          
+          CN    2.42         
+           D     .87         
+
+
+**** 04/24/15 13:22:41 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\tr\wzmtranzystorowy-schematic1-sim_tr.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (  OUT)    0.0000  (N00448)    3.1763 (N00528)    9.0000     
+
+(N00605)    2.4726 (N00684)    2.5647 (N01464)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vcc       -4.467E-03
+    V_V2         0.000E+00
+
+    TOTAL POWER DISSIPATION   4.02E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .03
+
