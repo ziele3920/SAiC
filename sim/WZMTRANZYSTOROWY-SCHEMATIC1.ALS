@@ -11,6 +11,6 @@ Q_Q2            Q2(c=N00684 b=N00448 e=N00605 )
 V_V2            V2(+=N01464 -=0 )
 R_Rw            Rw(1=0 2=OUT )
 C_C1            C1(1=IN 2=N00448 )
-_    _(in=IN)
 _    _(out=OUT)
+_    _(in=IN)
 .ENDALIASES

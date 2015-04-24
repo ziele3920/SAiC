@@ -1,6 +1,6 @@
 * source WZMTRANZYSTOROWY
-C_CE         0 N00605  100u  
-C_C2         OUT N00684  3u  
+C_CE         0 N00605  600u  
+C_C2         OUT N00684  5u  
 R_Rg         IN N01464  1.2k  
 V_Vcc         N00528 0 9Vdc
 R_RB1         N00448 N00528  33k  
@@ -8,6 +8,6 @@ R_RB2         0 N00448  62k
 R_RC         N00684 N00528  1.5k  
 R_RE         0 N00605  560  
 Q_Q2         N00684 N00448 N00605 BC107B 
-V_V2         N01464 0 DC 0Vdc AC 0.01Vac 
+V_V2         N01464 0 DC 0Vdc AC 0.001Vac 
 R_Rw         0 OUT  1.6k  
-C_C1         IN N00448  3u  
+C_C1         IN N00448  5u  
