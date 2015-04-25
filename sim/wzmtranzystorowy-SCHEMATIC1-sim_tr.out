@@ -1,7 +1,7 @@
-
-**** 04/24/15 14:59:45 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
+**** 04/25/15 15:18:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\saic\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -34,7 +34,7 @@ C_C2         OUT N00684  5u
 R_Rg         IN N01464  1.2k  
 V_Vcc         N00528 0 9Vdc
 R_RB1         N00448 N00528  33k  
-R_RB2         0 N00448  62k  
+R_RB2         0 N00448  15k  
 R_RC         N00684 N00528  1.5k  
 R_RE         0 N00605  560  
 Q_Q2         N00684 N00448 N00605 BC107B 
@@ -45,9 +45,9 @@ C_C1         IN N00448  5u
 **** RESUMING wzmtranzystorowy-schematic1-sim_tr.sim.cir ****
 .END
 
-**** 04/24/15 14:59:45 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/25/15 15:18:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
+ ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\saic\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
 
 
  ****     BJT MODEL PARAMETERS
@@ -89,9 +89,9 @@ C_C1         IN N00448  5u
            D     .87         
 
 
-**** 04/24/15 14:59:45 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/25/15 15:18:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
+ ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\saic\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -104,9 +104,9 @@ C_C1         IN N00448  5u
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(   IN)    0.0000  (  OUT)    0.0000  (N00448)    3.1763 (N00528)    9.0000     
+(   IN)    0.0000  (  OUT)    0.0000  (N00448)    2.6884 (N00528)    9.0000     
 
-(N00605)    2.4726 (N00684)    2.5647 (N01464)    0.0000 
+(N00605)    1.9920 (N00684)    3.6824 (N01464)    0.0000 
 
 
 
@@ -114,10 +114,10 @@ C_C1         IN N00448  5u
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_Vcc       -4.467E-03
+    V_Vcc       -3.736E-03
     V_V2         0.000E+00
 
-    TOTAL POWER DISSIPATION   4.02E-02  WATTS
+    TOTAL POWER DISSIPATION   3.36E-02  WATTS
 
 
 

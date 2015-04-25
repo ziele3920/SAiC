@@ -34,7 +34,7 @@ IBQ = ICQ/B0;
 IR2 = 10*IBQ;
 IR1 = IR2 + IBQ;
 
-R2 = (UCC + UR4)/IR2;
+R2 = (UBEQ + UR4)/IR2;
 R1 = (UCC - UBEQ - UR4)/IR1;
 
 RB = R1*R2/(R1+R2);

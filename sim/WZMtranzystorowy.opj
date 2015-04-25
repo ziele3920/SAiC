@@ -79,9 +79,9 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 1666 50 661")
-        (Scroll "431 521")
+        (Scroll "460 442")
         (Zoom "240")
         (Occurrence "/"))
-      (Path "F:\AIR\SIM\WZMTRANZYSTOROWY.DSN")
+      (Path "F:\AIR\SAIC\SIM\WZMTRANZYSTOROWY.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))

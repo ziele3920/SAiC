@@ -4,7 +4,7 @@ C_C2         OUT N00684  5u
 R_Rg         IN N01464  1.2k  
 V_Vcc         N00528 0 9Vdc
 R_RB1         N00448 N00528  33k  
-R_RB2         0 N00448  62k  
+R_RB2         0 N00448  15k  
 R_RC         N00684 N00528  1.5k  
 R_RE         0 N00605  560  
 Q_Q2         N00684 N00448 N00605 BC107B 
