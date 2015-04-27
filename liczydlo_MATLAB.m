@@ -19,23 +19,23 @@ rbe = B0*kat/ICQ;
 gm = ICQ/kat;
 rce = UY/ICQ;
 
-R3 = (gm/ku - rce^(-1) - RL^(-1))^(-1);
+R3 = (gm/ku - rce^(-1) - RL^(-1))^(-1)
 
 % UR4 = (2 - 4) UBEQ
 % UCEQ = (1 - 5)V
 UR4 = 3*UBEQ;
 UCEQ = 1.753;
 
-UCC = ICQ*R3+UCEQ+UR4;
-R4 = UR4/ICQ;
+UCC = ICQ*R3+UCEQ+UR4
+R4 = UR4/ICQ
 IBQ = ICQ/B0;
 
 % IR2 = (5 - 20) IBQ
 IR2 = 10*IBQ;
 IR1 = IR2 + IBQ;
 
-R2 = (UBEQ + UR4)/IR2;
-R1 = (UCC - UBEQ - UR4)/IR1;
+R2 = (UBEQ + UR4)/IR2
+R1 = (UCC - UBEQ - UR4)/IR1
 
 RB = R1*R2/(R1+R2);
 rWE = RB*rce/(RB+rce);
@@ -55,10 +55,10 @@ f3 = 19.86;
 f1 = 1.986;
 f2 = 1.324;
 
-C1 = 1/(2*pi*f1*(rWE+Rg))
-C2 = 1/(2*pi*f2*(rWY+RL))
-C3 = (1+((B0+1)*R4)/((Rg*RB)/(Rg+RB)+rbe))/(2*pi*f3*R4)
+C1 = 1/(2*pi*f1*(rWE+Rg));
+C2 = 1/(2*pi*f2*(rWY+RL));
+C3 = (1+((B0+1)*R4)/((Rg*RB)/(Rg+RB)+rbe))/(2*pi*f3*R4);
 
-UWYmax = UCEQ - UCEsat
+UWYmax = UCEQ - UCEsat;
 
 
