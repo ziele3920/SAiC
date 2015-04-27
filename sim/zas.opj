@@ -8,7 +8,8 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
   (Folder "Outputs"
     (File ".\zas-schematic1.net"
       (Type "Report")))
@@ -27,27 +28,33 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
-    (VAC
-      (FullPartName "VAC.Normal")
-      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+    (555B
+      (FullPartName "555B.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANL_MISC.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD_DEMO\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (VDC
       (FullPartName "VDC.Normal")
-      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (LibraryName
+         "C:\PROGRAM FILES\ORCAD_DEMO\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
     (VPULSE
       (FullPartName "VPULSE.Normal")
       (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (0
+    (VAC
+      (FullPartName "VAC.Normal")
       (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
+    (C
+      (FullPartName "C.Normal")
       (LibraryName "E:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (D1N3064
@@ -57,10 +64,6 @@
     (BC107A
       (FullPartName "BC107A.Normal")
       (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
-      (DeviceIndex "0"))
-    (555B
-      (FullPartName "555B.Normal")
-      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANL_MISC.OLB")
       (DeviceIndex "0"))
     (D1N5818
       (FullPartName "D1N5818.Normal")
@@ -90,9 +93,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 895 50 474")
-        (Scroll "345 480")
-        (Zoom "169")
+        (Placement "44 2 3 0 576 -8 -30 50 895 50 474")
+        (Scroll "351 450")
+        (Zoom "150")
         (Occurrence "/"))
       (Path "C:\USERS\WINDA\DESKTOP\SAIC\SIM\ZAS.DSN")
       (Schematic "SCHEMATIC1")

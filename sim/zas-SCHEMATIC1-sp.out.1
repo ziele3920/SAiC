@@ -1,5 +1,5 @@
 
-**** 04/20/15 23:11:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 04/27/15 22:36:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sp"  [ c:\users\winda\desktop\saic\sim\zas-schematic1-sp.sim ] 
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 10ms 0 
+.TRAN  0 10ms 0 SKIPBP 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\zas-SCHEMATIC1.net" 
 
@@ -29,23 +29,25 @@
 
 **** INCLUDING zas-SCHEMATIC1.net ****
 * source ZAS
-C_C4         N16338 0  100u  
-C_C         0 N16833  47n  
-C_C2         0 N16338  100n  
-Q_Q1         N17970 N18508 0 BC107A 
-C_C1         N18508 TRIG  1n  
-V_V2         TRIG 0  
-+PULSE 5 0 1m 1n 1n 100u 1000u
-C_C3         N16918  1u  
--------------------------$
-ERROR -- Missing model
-R_Ra         N17414 N16338  760  
-R_Rb         N16833 N17414  1p  
-V_Vcc         N16338 0 5Vdc
-R_R3         N17970 N16338  1k  
-D_D1         0 N18508 D1N3064 
-R_R2         0 N18508  1k  
-X_U1         0 N17970 out N16338 N16918 N17414 N16833 N16338 555B
+V_V2         N50219 0  
++PULSE 0 5 0 10n 10n 70u 200u
+C_C2         N00723 0  100n  
+R_R2         0 N00324  10k  
+C_C3         N00042 0  2u  
+R_R1         N50219 N487210  1k  
+D_D2         0 N00324 Dbreak 
+X_U5         N51498 N48919 WYJSCIE N00723 N00042 KONDENSATOR KONDENSATOR N00723
++  555B
+C_C         0 KONDENSATOR  4,7n  
+-----------------------------$
+ERROR -- unknown parameter
+C_C4         0 N00723  100u  
+C_C1         N487210 N00324  3n  
+R_Ra         KONDENSATOR N00723  10k  
+R_R4         N51498 WYJSCIE  1k  
+Q_Q3         N48919 N00324 0 Q2N2222
+R_R3         N48919 N00723  1k  
+V_V4         N00723 0 5Vdc
 
 **** RESUMING zas-schematic1-sp.sim.cir ****
 .END

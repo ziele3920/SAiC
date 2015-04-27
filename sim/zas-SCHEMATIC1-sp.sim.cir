@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 10ms 0 
+.TRAN  0 10ms 0 SKIPBP 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\zas-SCHEMATIC1.net" 
 
