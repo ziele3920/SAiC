@@ -18,7 +18,7 @@
   \centering
   \begin{tabular}{|ll|l|}
     \hline
-    \multicolumn{1}{|l|}{Data: 7.04.2015r}                & \multicolumn{2}{l|}{Dzień: Wtorek}                                         \\ \hline
+    \multicolumn{1}{|l|}{Data: 21.04.2015r}                & \multicolumn{2}{l|}{Dzień: Wtorek}                                         \\ \hline
     \multicolumn{1}{|l|}{Grupa: VII}                      & \multicolumn{2}{l|}{Godzina: 12:15-15:00}                                  \\ \hline
     \multicolumn{3}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}\textbf{Temat ćwiczenia:} \\ Przerzutnik astabilny ``555''\end{tabular}}} \\ \hline
     \textbf{Dane projektowe:}                             & \multicolumn{2}{l|}{}                                                      \\
@@ -73,7 +73,7 @@ Zaprojektować przerzutnik monostabilny w oparciu o uład scalony ``555'' dla T=
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|c|c|l|l|l|c|c|}
 \cline{1-3} \cline{7-8}
-T[$\mu$ s]     & U\textsubscript{wy} [V]  & Odchylenie [$\%$] & \multicolumn{3}{l|}{\multirow{}{}{}} & T[$\mu$ s] &U\textsubscript{mod} [V]
+T[$\mu$ s]     & V\textsubscript{cc} [V]  & Odchylenie [$\%$] & \multicolumn{3}{l|}{\multirow{}{}{}} & T[$\mu$ s] &U\textsubscript{mod} [V]
 \\ \cline{1-3} \cline{7-8} 
 52.31 & 2.61  & 2.41       & \multicolumn{3}{l|}{}                   & 17.51               & 0.97              \\ \cline{1-3} \cline{7-8} 
 51.62 & 3.03  & 1.06       & \multicolumn{3}{l|}{}                   & 18.14               & 1.48              \\ \cline{1-3} \cline{7-8} 
@@ -105,13 +105,13 @@ T[$\mu$ s]     & U\textsubscript{wy} [V]  & Odchylenie [$\%$] & \multicolumn{3}{
 }
 \end{figure}
 \pagebreak
-\subsection{Czas trwania impulsu a napięcie na wyjściu}
+\subsection{Czas trwania impulsu a napięcie zasilające}
 \begin{figure}[h]
   \center 
   \includegraphics[width=1.1\textwidth]{charak1}
   \caption{}
 \end{figure}
-Na podstawie rys. 1 możemy wnioskować, iż czas trwania impulsu utrzymuje się na względnie stałym poziomie - maksymalne pojedyncze odchylenie wynosi
+Na podstawie rys. 3 możemy wnioskować, iż czas trwania impulsu utrzymuje się na względnie stałym poziomie - maksymalne pojedyncze odchylenie wynosi
 $2.41\%$, natomiast dla przeważającej liczby pomiarów odchylenie nie przekracza $0.5\%$.
 \pagebreak
 \subsection{Czas trwania impulsu a napięcie modulujące}
@@ -119,13 +119,17 @@ $2.41\%$, natomiast dla przeważającej liczby pomiarów odchylenie nie przekrac
   \centering
   \includegraphics[width=1.1\textwidth]{charak2}
   \caption{}
-\end{figure}0
-Na podstawie rysunku nr.2 możemy wnioskować, iż wraz ze wzrostem napięcia modulującego długość impulsów rośnie, ponieważ zmieniamy polaryzacje wejść wewnętrznych komparatorów układu (czas ładowania kondensatora wzrasta)
+\end{figure}
+Na podstawie rysunku nr.4 możemy wnioskować, iż wraz ze wzrostem napięcia modulującego długość impulsów rośnie, ponieważ zmieniamy polaryzacje wejść wewnętrznych komparatorów układu (czas ładowania kondensatora wzrasta)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section {Wnioski}
 \begin{enumerate}  
-\item Czas trwania impulsu charakteryzuje się małym odchyleniem od wartości nominalnej (dla 5V-napięcia zasilania)
-\item Wraz ze wzrostem napięcia modulującego długość impulsów wzrasta
-\item Układ monostabilny charakteryzuje się jednym stanem stailnym,drugi stan trwa tylko przez określony czas, zależny od wartości elementów układu. Po upływie tego stanu samoczynnie  wraca  do  stanu  stabilnego.
+\item Czas trwania impulsu charakteryzuje się małym odchyleniem od wartości nominalnej (dla 5V-napięcia zasilania),
+      zgodnie z rysunkiem nr 3 układ doskonale utrzymuje zadany czas trwania impulsu na przedziale
+      napięcia zasilania od ok. 3.5V do 15V, ponieważ odchyłka od oczekiwanego czasu jest mniejsza od 0.5%.
+\item Wraz ze wzrostem napięcia modulującego długość impulsów wzrasta, na rys. 4 widać, że 
+      zadaną wartość długosci impulsów (50us) otrzymujemy dla napięcia modulujcego będącego w przedziale od
+      3.25V do 3.5V.
+\item Układ monostabilny charakteryzuje się jednym stanem stabilnym, drugi stan trwa tylko przez określony czas, zależny od wartości elementów układu. Po upływie tego stanu samoczynnie  wraca  do  stanu  stabilnego.
 \end{enumerate}
 \end{document}
