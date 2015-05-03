@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  3 MAY 2015 17:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.12)  3 MAY 2015 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,7 +578,7 @@ LaTeX Font Info:    External font `plex10' loaded for size
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 49.
 
-Overfull \hbox (9.77873pt too wide) detected at line 78
+Overfull \hbox (9.77873pt too wide) detected at line 77
 [] \OT4/cmr/m/n/12 = ([] \OMS/plsy/m/n/12 ^^@ \OML/plm/m/it/12 r[] \OMS/plsy/m/
 n/12 ^^@ \OML/plm/m/it/12 R[]\OT4/cmr/m/n/12 )[] = ([] \OMS/plsy/m/n/12 ^^@ \OT
 4/cmr/m/n/12 (28\OML/plm/m/it/12 :\OT4/cmr/m/n/12 571[])[] \OMS/plsy/m/n/12 ^^@
@@ -586,32 +586,32 @@ n/12 ^^@ \OML/plm/m/it/12 R[]\OT4/cmr/m/n/12 )[] = ([] \OMS/plsy/m/n/12 ^^@ \OT
  []
 
 
-Overfull \hbox (31.4126pt too wide) detected at line 82
+Overfull \hbox (31.4126pt too wide) detected at line 81
 \OML/plm/m/it/12 Przyjmujemy U[] \OT4/cmr/m/n/12 = 3 \OMS/plsy/m/n/12 ^^C \OML/
 plm/m/it/12 U[] \OT4/cmr/m/n/12 = 3 \OMS/plsy/m/n/12 ^^C \OT4/cmr/m/n/12 0\OML/
 plm/m/it/12 :\OT4/cmr/m/n/12 65 = 1\OML/plm/m/it/12 :\OT4/cmr/m/n/12 95\OML/plm
-/m/it/12 V;  oraz U[] \OT4/cmr/m/n/12 = 1\OML/plm/m/it/12 :\OT4/cmr/m/n/12 753\
+/m/it/12 V;  oraz U[] \OT4/cmr/m/n/12 = 4\OML/plm/m/it/12 :\OT4/cmr/m/n/12 753\
 OML/plm/m/it/12 V
  []
 
 [2] <schemat.png, id=29, 758.835pt x 477.28313pt>
 File: schemat.png Graphic file (type png)
  <use schemat.png>
-Package pdftex.def Info: schemat.png used on input line 118.
+Package pdftex.def Info: schemat.png used on input line 117.
 (pdftex.def)             Requested size: 312.00119pt x 196.24083pt.
  [3 <./schemat.png>] <sim1.png, id=33, 871.75688pt x 558.58687pt>
 File: sim1.png Graphic file (type png)
  <use sim1.png>
-Package pdftex.def Info: sim1.png used on input line 127.
+Package pdftex.def Info: sim1.png used on input line 126.
 (pdftex.def)             Requested size: 315.89905pt x 202.41223pt.
 
 <sim2.png, id=34, 889.07156pt x 560.8453pt>
 File: sim2.png Graphic file (type png)
  <use sim2.png>
-Package pdftex.def Info: sim2.png used on input line 130.
+Package pdftex.def Info: sim2.png used on input line 129.
 (pdftex.def)             Requested size: 315.89905pt x 199.2769pt.
  [4 <./sim1.png> <./sim2.png>]
-Overfull \hbox (72.94257pt too wide) in paragraph at lines 144--174
+Overfull \hbox (72.94257pt too wide) in paragraph at lines 143--173
  [] 
  []
 
@@ -623,26 +623,26 @@ Package epstopdf Info: Source file: <g1.eps>
 (epstopdf)                    size: 48863 bytes
 (epstopdf)             Command: <repstopdf --outfile=g1-eps-converted-to.pdf g1
 .eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 <g1-eps-converted-to.pdf, id=38, 455.7025pt x 255.95625pt>
 File: g1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use g1-eps-converted-to.pdf>
-Package pdftex.def Info: g1-eps-converted-to.pdf used on input line 184.
+Package pdftex.def Info: g1-eps-converted-to.pdf used on input line 183.
 (pdftex.def)             Requested size: 331.50238pt x 186.19817pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
@@ -657,36 +657,36 @@ Package epstopdf Info: Source file: <g2.eps>
 (epstopdf)                    size: 50511 bytes
 (epstopdf)             Command: <repstopdf --outfile=g2-eps-converted-to.pdf g2
 .eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 <g2-eps-converted-to.pdf, id=39, 456.70625pt x 255.95625pt>
 File: g2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use g2-eps-converted-to.pdf>
-Package pdftex.def Info: g2-eps-converted-to.pdf used on input line 210.
+Package pdftex.def Info: g2-eps-converted-to.pdf used on input line 209.
 (pdftex.def)             Requested size: 331.50238pt x 185.79199pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 226--231
 
  []
 
@@ -705,25 +705,7 @@ LaTeX Warning: Text page 7 contains only floats.
 Overfull \vbox (5.79199pt too high) has occurred while \output is active []
 
 
-[7 <./g2-eps-converted-to.pdf>]
-
-! LaTeX Error: \begin{itemize} on input line 244 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[8] (./Zasilacz.aux) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 244 (\begingroup)
-### bottom level 
+[7 <./g2-eps-converted-to.pdf>] (./Zasilacz.aux) ) 
 Here is how much of TeX's memory you used:
  3925 strings out of 493304
  51604 string characters out of 6139871
@@ -732,29 +714,30 @@ Here is how much of TeX's memory you used:
  21212 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  41i,16n,35p,296b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/c
-m-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/pl/plbx8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/pl/plmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl
-/plmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/pl/plr12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/pl/plsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/
-plsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1440.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
-2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2
-488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Zasilacz.pdf (8 pages, 370602 bytes).
+{/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/pl/plrm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl
+/plms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/pl/plbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/p
+l/plbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+pl/plr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfbi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfti1440.pfb>
+Output written on Zasilacz.pdf (7 pages, 370328 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
