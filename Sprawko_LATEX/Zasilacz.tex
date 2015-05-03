@@ -94,7 +94,7 @@ I_{BQ} = \frac{I_{CQ}}{\beta_0} = \frac{3.5*10^{-3}}{200} = 1.75*10^{-5}A
 \end{equation}
 
 \begin{equation}
-Przyjmujemy I_{RB2} = 10*I_{BQ} = 10 * 1.75*10^{-5} = 1.75*10^{-4}A
+Przyjmujemy \quad I_{RB2} = 10*I_{BQ} = 10 * 1.75*10^{-5} = 1.75*10^{-4}A
 \end{equation}
 
 \begin{equation}
@@ -113,12 +113,24 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section {Schemat projektowy}
-%\begin{figure}[h]
-  %\center
-  %\includegraphics[width=0.7\textwidth]{schemat_sim.eps}
-  %\caption{Schemat do symulacji projektowanego układu}
+\begin{figure}[h]
+  \center
+  \includegraphics[width=0.8\textwidth]{schemat.png}
+  \caption{Schemat do symulacji projektowanego układu}
+\end{figure}
 
-%\end{figure}
+\newpage
+\section{Wyniki symulacji}
+
+\begin{figure}[h]
+  \center
+  \includegraphics[width=0.81\textwidth]{sim1.png}
+  \caption{Charakterystyka częstotliowściowa wzmacniacza, $C_E = 144uF$}
+  
+    \includegraphics[width=0.81\textwidth]{sim2.png}
+  \caption{Charakterystyka częstotliowściowa wzmacniacza, $C_E = 0$}
+\end{figure}
+
 
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -126,6 +138,7 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Część laboratoryjna}
 \subsection{Charakterystyka częstotliwościowa wzmacniacza}
+
 \begin{table}[ht]
   \begin{center}
   \begin{tabular}{|r|r|r|r|r|r|r|r|r|}
@@ -156,48 +169,76 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
     \multicolumn{4}{|c|}{-} & & 1150,00 & 1,44 & 0,120 & 0,83 \\ \hline
     \multicolumn{9}{|c|}{$\mathbf{R_w = \infty}$} \\ \hline
     130,00 & 1,46 & 0,60 & - & & 30 & 1,44 & 0,330 & - \\ \hline
-    
+
   \end{tabular}
   \end{center}
   
 \end{table}
+
+
 %\pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[h!]
   \begin{center}
   \includegraphics[width=0.85\textwidth]{g1.eps}
-  \caption{Charakterystyka częstotliowśiowa wzmocnienia przy $C_E = 144uF$}
+  \caption{Charakterystyka częstotliowśiowa wzmacniacza przy $C_E = 144uF$}
   \end{center}
 
+  Z danych pomiarowych zamieszczonych w tabeli oraz powyższego wykresu możemy odczytać:
+  \begin{itemize}
+  \item $K_{U12} = 78.48 \frac{V}{V}$
+  \item $K_{USK} = 40.76 \frac{V}{V}$
+  \item Otrzymane na podstawie symulacji $K_{U12}=K_{USK}\approx 100\frac{V}{V}$
+  \item $fd_{12} \approx 0.25[kHZ]$
+  \item $fd_{SK} \approx 0.15[kHz]$
+  \item $fd_{sim} \approx 0.2[kHz]$
+  \item $fg_{12} \approx 1000[kHZ]$
+  \item $fg_{SK} \approx 440[kHz]$
+  \item $fg_{sim} \approx 80000[kHz]$
 
 
-  \begin{center}
-  \includegraphics[width=0.85\textwidth]{g2.eps}
-  \caption{Charakterystyka częstotliowśiowa wzmocnienia przy $C_E = 0$}
-  \end{center}
-
-
+  \end{itemize}
+    $ $ \newline
+$ $ \newline
+$ $ \newline
 \end{figure}
 
-\pagebreak
 
 \begin{figure}[h!]
   \begin{center}
-  \includegraphics[width=0.85\textwidth]{spr_Iwy.eps}
-  \caption{Wykres sprawności od natężenia prądu wyjściowego}
+  \includegraphics[width=0.85\textwidth]{g2.eps}
+  \caption{Charakterystyka częstotliowśiowa wzmacniacza przy $C_E = 0$}
   \end{center}
   
-  Tutaj możemy zauważyć, że sprawność zasilacza w warunkach pracy tj. dla natężenia prądu wyjściowego w zakresie od
-kilkudziesięciu mili amperów do około 250mA utrzymuje się na poziomie powyżej 0.74, gdzie maksimum osiąga 
-dla ok. 100mA natężenia prądu wyjściowego i wynosi około 0.79.
-Warto też dodać, iż dla niskich natężeń prądu wyjściowego zmiany sprawności są bardzo szybkie.
+    Z danych pomiarowych zamieszczonych w tabeli oraz powyższego wykresu możemy odczytać:
+  \begin{itemize}
+  \item $K_{U12} = 1.39 \frac{V}{V}$
+  \item $K_{USK} = 1.19 \frac{V}{V}$
+  \item Otrzymane na podstawie symulacji $K_{U12}=K_{USK}\approx 1.37\frac{V}{V}$
+  \item $fd_{12} \approx 0.06[kHZ]$
+  \item $fd_{SK} \approx 0.06[kHz]$
+  \item $fd_{sim} \approx 0.06[kHz]$
+  \item $fg_{12} \approx 1000[kHZ]$
+  \item $fg_{SK} \approx 1150[kHz]$
+  \item $fg_{sim} > 40000[kHz]$
+  
+  \end{itemize}
+      $ $ \newline
+$ $ \newline
+$ $ \newline
+$ $ \newline
+$ $ \newline
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
 \section {Wnioski}
 
 \begin{itemize}
