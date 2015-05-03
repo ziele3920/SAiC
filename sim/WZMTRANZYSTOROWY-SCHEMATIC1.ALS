@@ -1,5 +1,4 @@
 .ALIASES
-C_CE            CE(1=0 2=N00605 )
 C_C2            C2(1=OUT 2=N00684 )
 V_Vcc           Vcc(+=N00528 -=0 )
 R_RB1           RB1(1=N00448 2=N00528 )
@@ -10,6 +9,7 @@ Q_Q2            Q2(c=N00684 b=N00448 e=N00605 )
 V_V2            V2(+=N01464 -=0 )
 R_Rw            Rw(1=0 2=OUT )
 R_Rg            Rg(1=N01464 2=IN )
+C_CE            CE(1=0 2=N00605 )
 C_C1            C1(1=IN 2=N00448 )
 _    _(out=OUT)
 _    _(in=IN)

@@ -1,5 +1,5 @@
 
-**** 05/01/15 13:27:59 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 05/03/15 16:33:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\saic\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
 
@@ -21,7 +21,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 100 40 400000k
+.AC DEC 100 40 500000k
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\wzmtranzystorowy-SCHEMATIC1.net" 
 
@@ -29,7 +29,6 @@
 
 **** INCLUDING wzmtranzystorowy-SCHEMATIC1.net ****
 * source WZMTRANZYSTOROWY
-C_CE         0 N00605  144u  
 C_C2         OUT N00684  0.964u  
 V_Vcc         N00528 0 12Vdc
 R_RB1         N00448 N00528  50.615k  
@@ -40,12 +39,13 @@ Q_Q2         N00684 N00448 N00605 BC107B
 V_V2         N01464 0 DC 0Vdc AC 0.01Vac 
 R_Rw         0 OUT  1.5955k  
 R_Rg         N01464 IN  1.196k  
+C_CE         0 N00605  144u  
 C_C1         IN N00448  0.964u  
 
 **** RESUMING wzmtranzystorowy-schematic1-sim_tr.sim.cir ****
 .END
 
-**** 05/01/15 13:27:59 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 05/03/15 16:33:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\saic\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
 
@@ -89,7 +89,7 @@ C_C1         IN N00448  0.964u
            D     .87         
 
 
-**** 05/01/15 13:27:59 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 05/03/15 16:33:11 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-sim_tr"  [ f:\air\saic\sim\wzmtranzystorowy-schematic1-sim_tr.sim ] 
 
@@ -123,5 +123,5 @@ C_C1         IN N00448  0.964u
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .05
+          TOTAL JOB TIME             .03
 

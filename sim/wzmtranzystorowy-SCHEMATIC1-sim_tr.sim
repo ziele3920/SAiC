@@ -3,10 +3,10 @@
 @Settings: 2 1
 @General:
 ProfileName= "sim_tr" 
-ProfileFile= "wzmtranzystorowy-SCHEMATIC1-sim_tr.sim" 
+ProfileFile= "wzmtranzystorowy-schematic1-sim_tr.sim" 
 DesignFile= "wzmtranzystorowy.dsn" 0 
 ProjectFile= "wzmtranzystorowy.opj" 
-NetlistFile= "wzmtranzystorowy-SCHEMATIC1-sim_tr.sim.cir" 
+NetlistFile= "wzmtranzystorowy-schematic1-sim_tr.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "wzmtranzystorowy-SCHEMATIC1-sim_tr.dat" 
 OutFile= "wzmtranzystorowy-SCHEMATIC1-sim_tr.out" 
@@ -28,7 +28,7 @@ Notes=
 +2 0 0
 +0 "100" 
 +1 "40" 
-+2 "400000k" 
++2 "500000k" 
 +3 "" 
 +4 "" 
 +5 "" 

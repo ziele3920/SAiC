@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.AC DEC 100 40 400000k
+.AC DEC 100 40 500000k
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\wzmtranzystorowy-SCHEMATIC1.net" 
 

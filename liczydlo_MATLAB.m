@@ -24,7 +24,7 @@ R3 = (gm/ku - rce^(-1) - RL^(-1))^(-1)
 % UR4 = (2 - 4) UBEQ
 % UCEQ = (1 - 5)V
 UR4 = 3*UBEQ;
-UCEQ = 1.753;
+UCEQ = 4.753;
 
 UCC = ICQ*R3+UCEQ+UR4
 R4 = UR4/ICQ
