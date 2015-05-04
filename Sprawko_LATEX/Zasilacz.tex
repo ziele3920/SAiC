@@ -138,7 +138,8 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Część laboratoryjna}
 \subsection{Charakterystyka częstotliwościowa wzmacniacza}
-
+Pomiary napięcia wejściowego $(U_{we})$ są dziesięciokrotnie zaniżone ze względu na dzielnik napięciowy
+znajdujący się na wejściu badanego układu.
 \begin{table}[ht]
   \begin{center}
   \begin{tabular}{|r|r|r|r|r|r|r|r|r|}
@@ -232,10 +233,23 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
 \subsection{Punkt pracy tranzystora}
 
 \begin{itemize}
- \item Znając prąd $I_{EQ} \approx \mathbf{I_{CQ} = 3.5mA}$ 
- \item można wyliczyć $U_{CEQ} = U_{R_C} - U_{RE} = I_{CQ}*R_C - I_{EQ}*R_E$ \newline
-	$\mathbf{U_{CEQ}} = 3.5*10^{-3}*1486.7 - 3.5*10^{-3}*552.3 = \mathbf{3.3V}$
+ \item Dysponując zmierzonym napięciem $U_{R_E} = 1.8724V$ \newline
+	wyznaczono $I_{EC} \approx \mathbf{I_{CQ}} = \frac{U_{R_E}}{R_E} = \frac{1.8724}{552.3} = \mathbf{3.39mA}$
+  \item $U_{R_C} = I_{CQ}*R_C = 3.39 * 10^{-3} * 1486.7 = 5.80V$ \newline
+	$\mathbf{U_{CEQ}} = U_{R_C} - U_{R_E} = 5.80  - 1.8724 = \mathbf{3.93V}$
+
 \end{itemize}
+
+\subsection{Rezystancja wyjściowa i wejściowa wzmacniacza}
+\begin{enumerate}
+ \item $C_E = 144uF$ \newline
+	$R_{wy} = (\frac{U_{wy(Rw=\infty}}{U_{wy}}-1) * R_{w}) = (\frac{1.050}{0.568}-1)*1595.5 = 1.354k\Omega$ \newline
+	$R_{we} = \frac{R_g}{\frac{K_{U12}}{K_{USK}}-1} - R_{wygen} = \frac{1196}{\frac{78.45}{40.76}-1} - 50 = 1.243 k\Omega$
+  \item $C_E = 0$ \newline
+	$R_{wy} = (\frac{U_{wy(Rw=\infty}}{U_{wy}}-1) * R_{w}) = (\frac{0.330}{0.172}-1)*1595.5 = 1.465k\Omega$ \newline
+	$R_{we} = \frac{R_g}{\frac{K_{U12}}{K_{USK}}-1} - R_{wygen} = \frac{1196}{\frac{1.39}{1.19}-1} - 50 = 0.978k\Omega$
+\end{enumerate}
+
 
 \section {Wnioski}
 
@@ -257,7 +271,7 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
 	wartości dla badanego wzmacniacza w przypadku wzmocnienia kutecznego jak i nie skutecznego,
 	aczkolwiem górna częstotliwość graniczna otrzymana na podstawie symulacji przyjmuje
 	dużo większą wartość (zdecydowanie ponad $40\%$).
-  \item Punkt pracy tranzystora to $I_{CQ} = 3.5mA \quad U_{CEQ} = 3.3V$.
+  \item Punkt pracy tranzystora to $\mathbf{I_{CQ} = 3.39mA \quad U_{CEQ} = 3.93V}$.
 \end{itemize}
 \end{figure}
 
@@ -266,6 +280,15 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
+\section{Dodatki}
+\subsection{Zdjęcie oscyloskopu}
+\begin{figure}[h!]
+  \begin{center}
+  \includegraphics[width=1\textwidth]{zdj.jpg}
+  \caption{Obraz prezentuje }
+  \end{center}
+  \end{figure}
+  
 \end{document}
+
+
