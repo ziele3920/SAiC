@@ -6,6 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
+\usepackage{epstopdf}
 \usepackage{color}
 \usepackage{mathtools}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%STRONA TYTULOWA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -28,10 +29,10 @@
     \multicolumn{1}{|l|}{Grupa: VII}                        & \multicolumn{2}{l|}{Godzina: 12:15-15:00}                               \\ \hline
     \multicolumn{3}{|l|}{\textit{\begin{tabular}[c]{@{}l@{}}\textbf{Temat ćwiczenia:} \\ Wzmacniacz tranzystorowy\end{tabular}}}		 \\ \hline
     \textbf{Dane projektowe:}                               & \multicolumn{2}{l|}{}                                             	 \\
-    \multicolumn{1}{|l}{   $ I_{CQ}=3.480mA$   }   & \multicolumn{1}{l}{$R_{B1}=50.615 k\Omega$ }&  \multicolumn{1}{l|}{$Ucc=12V$} \\ 
+    \multicolumn{1}{|l}{   $ I_{CQ}=3.5mA$   }   & \multicolumn{1}{l}{$R_{B1}=50.615 k\Omega$ }&  \multicolumn{1}{l|}{$Ucc=12V$} \\ 
     \multicolumn{1}{|l}{   $ K_{u12}=100 \frac{V}{V}$ }   & \multicolumn{1}{l}{$R_{B2}=15.077 k\Omega$ }&  \multicolumn{1}{l|}{$C_E=144uF$} \\ 
-    \multicolumn{1}{|l}{   $ R_w= 1.596 k\Omega$  }  & \multicolumn{1}{l}{$R_C=552.3 \Omega$ }&  \multicolumn{1}{l|}{$C_1=C_2=0.9464nF$} \\ 
-        \multicolumn{1}{|l}{$R_g=1.196 k\Omega$}  & \multicolumn{2}{l|}{} \\ \hline
+    \multicolumn{1}{|l}{   $ R_w= 1.596 k\Omega$  }  & \multicolumn{1}{l}{$R_E=552.3 \Omega$ }&  \multicolumn{1}{l|}{$C_1=C_2=0.9464nF$} \\ 
+        \multicolumn{1}{|l}{$R_g=1.196 k\Omega$}  & \multicolumn{1}{l}{$R_C=1.4867 k\Omega$} &  \multicolumn{1}{l|}{}\\ \hline
     \multicolumn{1}{|l|}{\textbf{l.p}}                    & \textbf{Nazwisko i imię}                 & \textbf{Oceny}               \\ \hline
     \multicolumn{1}{|l|}{1}                               & Arkadiusz Ziółkowski                     &                               \\ \hline
     \multicolumn{1}{|l|}{2}                               & Jakub Koban                              &                                \\ \hline
@@ -168,6 +169,9 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
     \multicolumn{4}{|c|}{-} & & 1150,00 & 1,44 & 0,120 & 0,83 \\ \hline
     \multicolumn{9}{|c|}{$\mathbf{R_w = \infty}$} \\ \hline
     130,00 & 1,46 & 0,60 & - & & 30 & 1,44 & 0,330 & - \\ \hline
+     \multicolumn{9}{c}{} \\
+
+ 
 
   \end{tabular}
   \end{center}
@@ -180,8 +184,8 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
 
 \begin{figure}[h!]
   \begin{center}
-  \includegraphics[width=0.85\textwidth]{g1.eps}
-  \caption{Charakterystyka częstotliowśiowa wzmacniacza przy $C_E = 144uF$}
+  \includegraphics[width=1\textwidth]{g1.eps}
+  \caption{Charakterystyka częstotliowściowa wzmacniacza przy $C_E = 144uF$}
   \end{center}
 
   Z danych pomiarowych zamieszczonych w tabeli oraz powyższego wykresu możemy odczytać:
@@ -189,25 +193,23 @@ I_{RB1} = I_{RB2} + U_{BQ} = 1.75*10^{-4} + 1.75*10^{-5} = 1.925*10^{-4}A
   \item $K_{U12} = 78.48 \frac{V}{V}$
   \item $K_{USK} = 40.76 \frac{V}{V}$
   \item Otrzymane na podstawie symulacji $K_{U12}=K_{USK}\approx 100\frac{V}{V}$
-  \item $fd_{12} \approx 0.25[kHz]$
-  \item $fd_{SK} \approx 0.15[kHz]$
-  \item $fd_{sim} \approx 0.2[kHz]$
-  \item $fg_{12} \approx 1000[kHZ]$
-  \item $fg_{SK} \approx 440[kHz]$
-  \item $fg_{sim} \approx 80000[kHz]$
+  \item $fd_{12} \approx 0.25kHz$
+  \item $fd_{SK} \approx 0.15kHz$
+  \item $fd_{sim} \approx 0.2kHz$
+  \item $fg_{12} \approx 1000kHZ$
+  \item $fg_{SK} \approx 440kHz$
+  \item $fg_{sim} \approx 80000kHz$
 
 
   \end{itemize}
-    $ $ \newline
-$ $ \newline
-$ $ \newline
+
 \end{figure}
 
 
 \begin{figure}[h!]
   \begin{center}
-  \includegraphics[width=0.85\textwidth]{g2.eps}
-  \caption{Charakterystyka częstotliowśiowa wzmacniacza przy $C_E = 0$}
+  \includegraphics[width=1\textwidth]{g2.eps}
+  \caption{Charakterystyka częstotliowściowa wzmacniacza przy $C_E = 0$}
   \end{center}
   
     Z danych pomiarowych zamieszczonych w tabeli oraz powyższego wykresu możemy odczytać:
@@ -215,33 +217,54 @@ $ $ \newline
   \item $K_{U12} = 1.39 \frac{V}{V}$
   \item $K_{USK} = 1.19 \frac{V}{V}$
   \item Otrzymane na podstawie symulacji $K_{U12}=K_{USK}\approx 1.37\frac{V}{V}$
-  \item $fd_{12} \approx 0.06[kHz]$
-  \item $fd_{SK} \approx 0.06[kHz]$
-  \item $fd_{sim} \approx 0.06[kHz]$
-  \item $fg_{12} \approx 1000[kHZ]$
-  \item $fg_{SK} \approx 1150[kHz]$
-  \item $fg_{sim} > 40000[kHz]$
+  \item $fd_{12} \approx 0.06kHz$
+  \item $fd_{SK} \approx 0.06kHz$
+  \item $fd_{sim} \approx 0.06kHz$
+  \item $fg_{12} \approx 1000kHZ$
+  \item $fg_{SK} \approx 1150kHz$
+  \item $fg_{sim} > 40000kHz$
   
   \end{itemize}
-      $ $ \newline
-$ $ \newline
-$ $ \newline
-$ $ \newline
-$ $ \newline
+
 \end{figure}
 
-
+\begin{figure}
 \subsection{Punkt pracy tranzystora}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+ \item Znając prąd $I_{EQ} \approx \mathbf{I_{CQ} = 3.5mA}$ 
+ \item wyliczamy $U_{CEQ} = U_{R_C} - U_{RE} = I_{CQ}*R_C - I_{EQ}*R_E$ \newline
+	$\mathbf{U_{CEQ}} = 3.5*10^{-3}*1486.7 - 3.5*10^{-3}*552.3 = \mathbf{3.3V}$
+\end{itemize}
 
 \section {Wnioski}
 
 \begin{itemize}
-  \item
+  \item Na rysunku nr 4 widać, że wzmocnienie jak i wzmocnienie skuteczne wzmacnicza
+	jest odpowiednio o ok. $20\%$ i $60\%$ mniejsze od wzmocnienia
+	otrzymanego na podstawie symulacji.
+  \item Z tego samego wykresu można odczytać dolne i górne częstotliwości graniczne. 
+	Różnice w wartości dolnych częstotliwości granicznych wszystkich trzech przypadków 
+	przestawionych na wykresie są pomijalnie małe. Natomiast górna częstotliwość graniczna 
+	jest największa dla wyników symulacji $(8MHz)$, dla wzmocnienia(12) układu
+	jest osiemdziesiokrotnie mniejsza $(1MHz)$ i dla wzmocnienia skutecznego jest najmniejsza
+	(ok. dwukrotnie mniejsza od $fg_{K_{U12}}$, wynosi $450kHz$).
+  \item Zgodnie z rysunkiem 5. wzmocnienie nie skuteczne badanego układu zgadza się co o wartości
+	ze wzmocnieniem otrzymanym na podstawie symulacji. Natomiast wzmocnienie skuteczne 
+	otrzymane na podstawie pomiarów jest o ok. $15\%$ mniejsze od dwóch powyższych.
+  \item Na rysunku nr 5 widać, że dolne częstotliwości graniczne wszystkich trzech przedstawionych
+	przypadków są równe co do wartości. Natomiast górne częstotliwości graniczne są równe co do 
+	wartości dla badanego wzmacniacza w przypadku w zmocnienia wkutecznego jak i nie skutecznego,
+	aczkolwiem górna częstotliwość graniczna otrzymana na podstawie symulacji przyjmuje
+	dużo większą wartość.
 \end{itemize}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 \end{document}
