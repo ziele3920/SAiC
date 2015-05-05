@@ -266,13 +266,28 @@ znajdujący się na wejściu badanego układu.
   \item Zgodnie z rysunkiem 5. wzmocnienie nie skuteczne badanego układu zgadza się co o wartości
 	ze wzmocnieniem otrzymanym na podstawie symulacji. Natomiast wzmocnienie skuteczne 
 	otrzymane na podstawie pomiarów jest o ok. $15\%$ mniejsze od dwóch powyższych.
-  \item Na rysunku nr 5 widać, że dolne częstotliwości graniczne wszystkich trzech przedstawionych
+
+\end{itemize}
+\end{figure}
+\pagebreak
+
+\begin{figure}
+ \begin{itemize}
+    \item Na rysunku nr 5 widać, że dolne częstotliwości graniczne wszystkich trzech przedstawionych
 	przypadków są równe co do wartości. Natomiast górne częstotliwości graniczne są równe co do 
 	wartości dla badanego wzmacniacza w przypadku wzmocnienia kutecznego jak i nie skutecznego,
 	aczkolwiem górna częstotliwość graniczna otrzymana na podstawie symulacji przyjmuje
 	dużo większą wartość (zdecydowanie ponad $40\%$).
   \item Punkt pracy tranzystora to $\mathbf{I_{CQ} = 3.39mA \quad U_{CEQ} = 3.93V}$.
-\end{itemize}
+  \item Zmierzona rezystancja wyjściowa wzmacniacza dla dwóch powmiarów przy $CE=144uF$
+	i $C_E=0$ wyniosła odpowiednio $1.354k\Omega$ oraz $1.465k\Omega$. Wartości te są zgodne
+	z obliczonyą na podstawie zmiennoprądowego schematu projektowanego wzmacniacza - $1.43k\Omega$
+	(punkt 7.2).
+  \item Rezystancja wejściowa obliczona na podstawie dwóch pomiarów przy $CE=144uF$
+	i $C_E=0$ wyniosła odpowiednio $1.243k\Omega$ oraz $0.978k\Omega$. Są to wartości nieco niższe
+	od obliczonej na podstawie zmiennoprądowego schematu projektowanego wzmacniacza - $1.34k\Omega$.
+ \end{itemize}
+
 \end{figure}
 
 
@@ -280,15 +295,59 @@ znajdujący się na wejściu badanego układu.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\begin{figure}[h!]
 \section{Dodatki}
 \subsection{Zdjęcie oscyloskopu}
-\begin{figure}[h!]
   \begin{center}
-  \includegraphics[width=1\textwidth]{zdj.jpg}
-  \caption{Obraz prezentuje }
+  \includegraphics[width=0.8\textwidth]{zdj.jpg}
+  \caption{Obraz prezentuje sinusoidalny sygnał wejściowy i wyjściowy wzmacniacza bez zniekształceń }
   \end{center}
   \end{figure}
-  
+  \begin{figure}
+\subsection{Schemat zmiennoprądowy wzmacniacza}
+W tej części zostały obliczone paramtery układu projektowanego na podstawie zmiennorpądowego schematu
+wzmacniacza w którym tranzystor zastąpiono jego modelem małosygnałowym hybryd $\pi$.
+
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{pi.jpg}
+  \caption{Zmiennoprądowy schemat wzmacniacza }
+  \end{center}
+
+\end{figure}
+
+\begin{figure}
+
+\begin{equation}
+ c_{be} = 4.5pF
+\end{equation}
+
+\begin{equation}
+ f_T = 150MHz
+\end{equation}
+
+\begin{equation}
+r_{be} = \frac{\beta_0 \varphi_T}{I_{CQ}} = \frac{200 * 26.5*10^{-3}}{3.5*10^{-3}} = 1.51k\Omega
+\end{equation}
+
+\begin{equation}
+ c_{be} = \frac{g_m}{2\pi f_T} = \frac{0.1321}{2*\pi*15*10^7} = 1.4*10^{-10}
+\end{equation}
+
+\begin{equation}
+ R_B = \frac{R_{B1}*R_{B2}}{R_{B1}+R_{B2}} = \frac{48830*14860}{48830+14860} = 11.39k\Omega
+\end{equation}
+
+\begin{equation}
+ \mathbf{R_{we}} = \frac{R_{B}*r_{be}}{R_{B}+r_{be}} = \frac{11390*1510}{11390*1510} = \mathbf{1.34k\Omega}
+\end{equation}
+ 
+ \begin{equation}
+ \mathbf{R_{wy}} =  \frac{R_{C}*r_{ce}}{R_{C}+r_{ce}} = \frac{1500*28571}{1500+28571} = \mathbf{1.43k\Omega}
+\end{equation}
+ 
+\end{figure}
+
 \end{document}
 
 

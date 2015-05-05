@@ -240,12 +240,15 @@ znajdujący się na wejściu badanego układu.
 
 \end{itemize}
 
-\subsection{Rezystancja wyjściowa i wehjściowa wzmacniacza}
+\subsection{Rezystancja wyjściowa i wejściowa wzmacniacza}
 \begin{enumerate}
  \item $C_E = 144uF$ \newline
-	$R_{wy} = (\frac{U_{wy(Rw=\infty}}{U_{wy}}-1) - R_{wygen}) = (\frac{1.050}{0.568}-1)*R_w = 1.354k\Omega$ \newline
-	$R_{we} = \frac{R_g}{\frac{K_{U12}}{K_{USK}}-1}$
-\end{itemize}
+	$R_{wy} = (\frac{U_{wy(Rw=\infty}}{U_{wy}}-1) * R_{w}) = (\frac{1.050}{0.568}-1)*1595.5 = 1.354k\Omega$ \newline
+	$R_{we} = \frac{R_g}{\frac{K_{U12}}{K_{USK}}-1} - R_{wygen} = \frac{1196}{\frac{78.45}{40.76}-1} - 50 = 1.243 k\Omega$
+  \item $C_E = 0$ \newline
+	$R_{wy} = (\frac{U_{wy(Rw=\infty}}{U_{wy}}-1) * R_{w}) = (\frac{0.330}{0.172}-1)*1595.5 = 1.465k\Omega$ \newline
+	$R_{we} = \frac{R_g}{\frac{K_{U12}}{K_{USK}}-1} - R_{wygen} = \frac{1196}{\frac{1.39}{1.19}-1} - 50 = 0.978k\Omega$
+\end{enumerate}
 
 
 \section {Wnioski}
@@ -278,5 +281,54 @@ znajdujący się na wejściu badanego układu.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\begin{figure}[h!]
+\section{Dodatki}
+\subsection{Zdjęcie oscyloskopu}
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{zdj.jpg}
+  \caption{Obraz prezentuje sinusoidalny sygnał wejściowy i wyjściowy wzmacniacza bez zniekształceń }
+  \end{center}
+  \end{figure}
+  \begin{figure}
+\subsection{Schemat zmiennoprądowy wzmacniacza}
+W tej części zostały obliczone paramtery układu projektowanego na podstawie zmiennorpądowego schematu
+wzmacniacza w którym tranzystor zastąpiono jego modelem małosygnałowym hybryd $\pi$.
+
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{pi.jpg}
+  \caption{Zmiennoprądowy schematwzmacniacza }
+  \end{center}
+
+\end{figure}
+
+\begin{figure}
+
+\begin{equation}
+ c_{be} = 4.5pF
+\end{equation}
+
+\begin{equation}
+ f_T = 150MHz
+\end{equation}
+
+\begin{equation}
+r_{be} = \frac{\beta_0 \varphi_T}{I_{CQ}} = \frac{200 * 26.5*10^{-3}}{3.5*10^{-3}} = 1.51k\Omega
+\end{equation}
+
+\begin{equation}
+ c_{be} = \frac{g_m}{2\pi f_T} = \frac{0.1321}{2*\pi*15*10^7} = 1.4*10^{-10}
+\end{equation}
+
+\begin{equation}
+ R_B = \frac{R_{B1}*R_{B2}}{R_{B1}+R_{B2}} = \frac{48830*14860}{48830+14860} = 11.39k\Omega
+\end{equation}
+
+\begin{equation}
+ R_{we} = \frac{R_{B}*r_{be}}{R_{B}+r_{be}}
+\end{equation}
+ 
+\end{figure}
 
 \end{document}
+
+
