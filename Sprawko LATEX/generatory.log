@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.8)  12 MAY 2015 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.8)  12 MAY 2015 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,7 +722,7 @@ Here is how much of TeX's memory you used:
  8011 multiletter control sequences out of 15000+600000
  23502 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,38p,353b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,38p,463b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf
 -dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc
 /dvips/pl/plrm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/pl/plmi.enc}</usr/sha
@@ -741,7 +741,7 @@ b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf-dist/fonts
 /type1/public/wasy2-ps/wasy10.pfb></usr/share/texmf-dist/fonts/type1/public/was
 y2-ps/wasyb10.pfb>
-Output written on generatory.pdf (9 pages, 578503 bytes).
+Output written on generatory.pdf (9 pages, 578624 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
